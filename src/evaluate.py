@@ -4,14 +4,21 @@ import unicodedata
 
 import numpy as np
 import pandas as pd
-import torch
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from transformers import AutoModel, AutoTokenizer
+from common import (
+    load_dataset,
+    load_bert,
+    extract_embeddings,
+    MODELS_DIR,
+    POOLING
+)
 
 from sklearn.model_selection import StratifiedKFold
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.metrics import (
     accuracy_score,
     f1_score,
@@ -21,36 +28,14 @@ from sklearn.metrics import (
 
 
 # ==========================================================
-# 1. Congigurations
+# 1. LOAD DATASET
 # ==========================================================
 
-MODEL_NAME = "neuralmind/bert-base-portuguese-cased"
+print("Carregando dataset...")
 
-MAX_LENGTH = 64
-BATCH_SIZE = 16
-N_SPLITS = 5
+df, X, y = load_dataset()
 
-DEVICE = torch.device(
-    "cuda" if torch.cuda.is_available() else "cpu"
-)
-
-print(f"Dispositivo: {DEVICE}")
-
-
-# ==========================================================
-# 2. Loading DATASET
-# ==========================================================
-
-df = pd.read_csv(
-    "../data/processed/transactions_pt_br_v4.csv"
-)
-
-df = df.dropna(
-    subset=["description", "category"]
-).reset_index(drop=True)
-
-X = df["description"].astype(str)
-y = df["category"].astype(str)
+y_array = y.to_numpy()
 
 print("\nDistribuição das categorias:")
 print(y.value_counts())
@@ -60,10 +45,10 @@ print("Total de categorias:", y.nunique())
 
 
 # ==========================================================
-# 3. Data audit
+# 2. DATA AUDIT
 # ==========================================================
 
-def normalize_description(text):
+def normalize_for_audit(text):
 
     text = str(text).lower().strip()
 
@@ -93,15 +78,14 @@ def normalize_description(text):
 
 
 df["normalized_description"] = (
-    df["description"].apply(normalize_description)
+    df["description"].apply(normalize_for_audit)
 )
 
 duplicates = df[
-    df["normalized_description"].duplicated(keep=False)
+    df["normalized_description"].duplicated(
+        keep=False
+    )
 ]
-
-print("\nDuplicatas normalizadas:")
-print(len(duplicates))
 
 conflicts = (
     df.groupby("normalized_description")["category"]
@@ -110,124 +94,49 @@ conflicts = (
 
 conflicts = conflicts[conflicts > 1]
 
-print("\nDescrições com categorias conflitantes:")
+
+print("\n================================")
+print("DATASET AUDIT")
+print("================================")
+
+print(
+    "\nRegistros envolvidos em duplicatas:",
+    len(duplicates)
+)
+
+print(
+    "\nDescrições com categorias conflitantes:"
+)
+
 print(conflicts)
 
 
 # ==========================================================
-# 4. Loading of BERTIMBAU
+# 3. LOAD BERTIMBAU
 # ==========================================================
 
-print("\nCarregando BERTimbau...")
-
-tokenizer = AutoTokenizer.from_pretrained(
-    MODEL_NAME
-)
-
-bert = AutoModel.from_pretrained(
-    MODEL_NAME
-)
-
-bert.to(DEVICE)
-bert.eval()
+tokenizer, bert = load_bert()
 
 
 # ==========================================================
-# 5. Embbeding exctration
+# 4. EXTRACT EMBEDDINGS
 # ==========================================================
 
-def extract_embeddings(texts, pooling="mean"):
-
-    embeddings = []
-
-    for i in range(0, len(texts), BATCH_SIZE):
-
-        batch = texts[i:i + BATCH_SIZE]
-
-        inputs = tokenizer(
-            batch,
-            return_tensors="pt",
-            padding=True,
-            truncation=True,
-            max_length=MAX_LENGTH
-        )
-
-        inputs = {
-            key: value.to(DEVICE)
-            for key, value in inputs.items()
-        }
-
-        with torch.no_grad():
-
-            outputs = bert(**inputs)
-
-            token_embeddings = outputs.last_hidden_state
-
-            if pooling == "cls":
-
-                batch_embeddings = token_embeddings[:, 0, :]
-
-            elif pooling == "mean":
-
-                attention_mask = inputs[
-                    "attention_mask"
-                ]
-
-                mask = attention_mask.unsqueeze(-1).expand(
-                    token_embeddings.size()
-                ).float()
-
-                summed = torch.sum(
-                    token_embeddings * mask,
-                    dim=1
-                )
-
-                counts = torch.clamp(
-                    mask.sum(dim=1),
-                    min=1e-9
-                )
-
-                batch_embeddings = summed / counts
-
-            else:
-
-                raise ValueError(
-                    f"Pooling inválido: {pooling}"
-                )
-
-        embeddings.extend(
-            batch_embeddings.cpu().numpy()
-        )
-
-        print(
-            f"Embeddings: {min(i + BATCH_SIZE, len(texts))}/{len(texts)}",
-            end="\r"
-        )
-
-    print()
-
-    return np.array(embeddings)
-
-
-# ==========================================================
-# 6. Embedding data set extractions
-# ==========================================================
-
-print("\nExtraindo embeddings do dataset...")
+print("\nExtraindo embeddings...")
 
 X_embeddings = extract_embeddings(
     X.tolist(),
-    pooling="mean"
+    tokenizer,
+    bert,
+    pooling=POOLING
 )
 
-y_array = y.to_numpy()
-
 
 # ==========================================================
-# 7. STRATIFIED K-FOLD
+# 5. STRATIFIED K-FOLD
 # ==========================================================
 
-print("\nIniciando validação cruzada...")
+N_SPLITS = 5
 
 skf = StratifiedKFold(
     n_splits=N_SPLITS,
@@ -237,8 +146,13 @@ skf = StratifiedKFold(
 
 results_cv = []
 
-all_predictions = []
-all_real_labels = []
+oof_predictions = np.empty(
+    len(y_array),
+    dtype=object
+)
+
+
+print("\nIniciando validação cruzada...")
 
 for fold, (train_idx, val_idx) in enumerate(
     skf.split(X_embeddings, y_array),
@@ -268,6 +182,8 @@ for fold, (train_idx, val_idx) in enumerate(
         X_fold_val
     )
 
+    oof_predictions[val_idx] = predictions
+
     accuracy = accuracy_score(
         y_fold_val,
         predictions
@@ -285,9 +201,6 @@ for fold, (train_idx, val_idx) in enumerate(
         "f1_macro": f1
     })
 
-    all_predictions.extend(predictions)
-    all_real_labels.extend(y_fold_val)
-
     print(
         f"Accuracy: {accuracy:.4f} | "
         f"F1 Macro: {f1:.4f}"
@@ -295,7 +208,7 @@ for fold, (train_idx, val_idx) in enumerate(
 
 
 # ==========================================================
-# 8. Result of cross avaliation
+# 6. CROSS VALIDATION RESULTS
 # ==========================================================
 
 results_cv = pd.DataFrame(results_cv)
@@ -307,6 +220,7 @@ print("================================")
 print(results_cv.to_string(index=False))
 
 print("\nMÉDIA:")
+
 print(
     results_cv[
         ["accuracy", "f1_macro"]
@@ -314,6 +228,7 @@ print(
 )
 
 print("\nDESVIO PADRÃO:")
+
 print(
     results_cv[
         ["accuracy", "f1_macro"]
@@ -322,8 +237,12 @@ print(
 
 
 # ==========================================================
-# 9. CLASSIFICATION REPORT AGREGADO
+# 7. CLASSIFICATION REPORT
 # ==========================================================
+
+labels = sorted(
+    np.unique(y_array)
+)
 
 print("\n================================")
 print("CLASSIFICATION REPORT")
@@ -331,23 +250,21 @@ print("================================")
 
 print(
     classification_report(
-        all_real_labels,
-        all_predictions,
-        labels=np.unique(y_array),
+        y_array,
+        oof_predictions,
+        labels=labels,
         zero_division=0
     )
 )
 
 
 # ==========================================================
-# 10. Confunsion matrix
+# 8. CONFUSION MATRIX
 # ==========================================================
 
-labels = np.unique(y_array)
-
 cm = confusion_matrix(
-    all_real_labels,
-    all_predictions,
+    y_array,
+    oof_predictions,
     labels=labels
 )
 
@@ -357,94 +274,67 @@ sns.heatmap(
     cm,
     annot=True,
     fmt="d",
+    cmap="Blues",
     xticklabels=labels,
     yticklabels=labels
 )
 
 plt.xlabel("Predito")
 plt.ylabel("Real")
-plt.title("Matriz de Confusão - BERTimbau + K-Fold")
+
+plt.title(
+    "Matriz de Confusão - BERTimbau + Stratified K-Fold"
+)
 
 plt.tight_layout()
+
+MODELS_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+plt.savefig(
+    MODELS_DIR / "confusion_matrix.png",
+    dpi=300,
+    bbox_inches="tight"
+)
+
 plt.show()
 
 
 # ==========================================================
-# 11. Tests with transactions
+# 9. SAVE OUT-OF-FOLD PREDICTIONS
 # ==========================================================
 
-samples = [
+evaluation_results = df[
+    ["description", "category"]
+].copy()
 
-    "UBER *TRIP HELP",
-    "99 POP CORRIDA",
-    "POSTO SHELL ABASTECIMENTO",
-
-    "PAGAMENTO RESTAURANTE",
-    "LANCHONETE DO ZE",
-    "DROGARIA SAO PAULO",
-
-    "CONSULTA MEDICA",
-    "MENSALIDADE ACADEMIA",
-    "AMAZON PRIME VIDEO",
-
-    "MENSALIDADE CURSO INGLES",
-    "PAGAMENTO CONTA DE ENERGIA",
-    "COMPRA MAGAZINE LUIZA",
-
-]
-
-
-# ==========================================================
-# 12. Final train with the data
-# ==========================================================
-
-print("\nTreinando classificador final...")
-
-final_classifier = LogisticRegression(
-    C=1.0,
-    max_iter=2000,
-    class_weight="balanced"
+evaluation_results["predicted_category"] = (
+    oof_predictions
 )
 
-final_classifier.fit(
-    X_embeddings,
-    y_array
+evaluation_results["correct"] = (
+    evaluation_results["category"]
+    == evaluation_results["predicted_category"]
 )
 
-
-# ==========================================================
-# 13. Predictions
-# ==========================================================
-
-sample_embeddings = extract_embeddings(
-    samples,
-    pooling="mean"
+evaluation_results.to_csv(
+    MODELS_DIR / "evaluation_predictions.csv",
+    index=False
 )
 
-predictions = final_classifier.predict(
-    sample_embeddings
-)
-
-probabilities = final_classifier.predict_proba(
-    sample_embeddings
-)
 
 print("\n================================")
-print("NOVAS TRANSAÇÕES")
+print("AVALIAÇÃO CONCLUÍDA")
 print("================================")
 
-for description, category, probability in zip(
-    samples,
-    predictions,
-    probabilities
-):
+print(
+    "Matriz de confusão salva em:",
+    MODELS_DIR / "confusion_matrix.png"
+)
 
-    confidence = np.max(probability) * 100
-
-    print(
-        f"{description:40} -> "
-        f"{category:20} "
-        f"(Confiança: {confidence:.2f}%)"
-    )
-
-print("\nAvaliação concluída!")
+print(
+    "Previsões OOF salvas em:",
+    MODELS_DIR / "evaluation_predictions.csv"
+)
