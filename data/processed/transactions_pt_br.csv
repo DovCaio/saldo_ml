@@ -1,0 +1,271 @@
+description,category
+Mensalidade da faculdade,education
+Pagamento de mensalidade universitária,education
+Curso de inglês,education
+Pagamento de curso online,education
+Compra de material escolar,education
+Compra de livros didáticos,education
+Inscrição em curso profissionalizante,education
+Mensalidade da escola,education
+Treinamento profissional,education
+Inscrição em congresso acadêmico,education
+Taxa de matrícula da universidade,education
+Aula particular de matemática,education
+Curso de programação,education
+Plataforma de estudos online,education
+Certificação profissional,education
+Renovação de matrícula,education
+Compra de apostila,education
+Mensalidade de pós-graduação,education
+Curso preparatório para concurso,education
+Inscrição em vestibular,education
+Workshop de tecnologia,education
+Aulas de reforço escolar,education
+Compra de caderno e canetas,education
+Pagamento de curso técnico,education
+Mensalidade de plataforma educacional,education
+Taxa de emissão de diploma,education
+Escola de idiomas,education
+Material para faculdade,education
+Curso de informática,education
+Pagamento de professor particular,education
+Parcela do financiamento imobiliário,emi
+Pagamento de empréstimo pessoal,emi
+Parcela do financiamento do carro,emi
+Pagamento de crédito consignado,emi
+Parcela do financiamento,emi
+Prestação do apartamento,emi
+Parcela do veículo,emi
+Amortização do financiamento habitacional,emi
+Parcela do empréstimo bancário,emi
+Pagamento de crédito pessoal,emi
+Financiamento estudantil,emi
+Parcela do consórcio,emi
+Pagamento de dívida parcelada,emi
+Débito automático do empréstimo,emi
+Parcela mensal do imóvel,emi
+Financiamento de motocicleta,emi
+Prestação do carro,emi
+Parcela do crédito imobiliário,emi
+Empréstimo consignado,emi
+Amortização de empréstimo,emi
+Financiamento habitacional,emi
+Prestação bancária,emi
+Parcela do crédito estudantil,emi
+Acordo de dívida,emi
+Prestação mensal do financiamento,emi
+Débito de parcela do empréstimo,emi
+Financiamento veicular,emi
+Parcela de crédito pessoal,emi
+Financiamento da casa,emi
+Pagamento de parcela do consórcio,emi
+Assinatura Netflix,entertainment
+Mensalidade Spotify,entertainment
+Ingresso de cinema,entertainment
+Compra de jogo na Steam,entertainment
+Assinatura Disney Plus,entertainment
+YouTube Premium,entertainment
+Ingresso de show,entertainment
+Ingresso para teatro,entertainment
+Aluguel de filme online,entertainment
+Assinatura de streaming,entertainment
+Conteúdo para videogame,entertainment
+Clube de jogos,entertainment
+Ingresso de festival de música,entertainment
+Amazon Prime Video,entertainment
+Compra de música digital,entertainment
+Ingresso de parque de diversões,entertainment
+Pagamento de karaokê,entertainment
+Plataforma de filmes,entertainment
+Expansão de jogo,entertainment
+Ingresso de espetáculo,entertainment
+Assinatura Twitch,entertainment
+DLC de videogame,entertainment
+Streaming de música,entertainment
+Ingresso de festival,entertainment
+Aluguel de filme,entertainment
+Pagamento de fliperama,entertainment
+Plataforma de séries,entertainment
+Compra de jogo digital,entertainment
+Evento cultural,entertainment
+Serviço de streaming,entertainment
+Compra no supermercado,food
+Pagamento no restaurante,food
+Pedido no iFood,food
+Compra na padaria,food
+Lanche no McDonald's,food
+Compra de frutas e verduras,food
+Pagamento de almoço,food
+Jantar em restaurante,food
+Compra em açougue,food
+Pedido de pizza,food
+Compra em lanchonete,food
+Produtos alimentícios,food
+Pagamento de delivery,food
+Compra de pão e leite,food
+Pedido no aplicativo de comida,food
+Compra em hortifruti,food
+Café da manhã na cafeteria,food
+Compra de bebidas no mercado,food
+Conta de restaurante,food
+Compra de alimentos,food
+Pagamento de marmita,food
+Pedido de hambúrguer,food
+Compra em mercearia,food
+Despesa com alimentação,food
+Itens para churrasco,food
+Pagamento em cafeteria,food
+Pedido de comida japonesa,food
+Compra de congelados,food
+Produtos de padaria,food
+Pagamento de refeição,food
+Compra na farmácia,healthcare
+Consulta médica,healthcare
+Exame laboratorial,healthcare
+Clínica odontológica,healthcare
+Compra de medicamentos,healthcare
+Consulta com dentista,healthcare
+Sessão de fisioterapia,healthcare
+Pagamento de plano de saúde,healthcare
+Exame de sangue,healthcare
+Internação hospitalar,healthcare
+Produtos ortopédicos,healthcare
+Consulta com psicólogo,healthcare
+Vacina em clínica,healthcare
+Pagamento de laboratório,healthcare
+Vitaminas na farmácia,healthcare
+Atendimento em pronto-socorro,healthcare
+Consulta oftalmológica,healthcare
+Exame de imagem,healthcare
+Tratamento odontológico,healthcare
+Plano odontológico,healthcare
+Compra de curativos,healthcare
+Consulta veterinária,healthcare
+Exame cardiológico,healthcare
+Pagamento de terapia,healthcare
+Procedimento médico,healthcare
+Equipamento médico,healthcare
+Atendimento em clínica médica,healthcare
+Medicamento de uso contínuo,healthcare
+Pagamento de hospital,healthcare
+Despesa com saúde,healthcare
+Aplicação em CDB,investment
+Compra de ações,investment
+Investimento em Tesouro Direto,investment
+Depósito em fundo de investimento,investment
+Aplicação financeira,investment
+Compra de cotas de fundos imobiliários,investment
+Aporte em previdência privada,investment
+Compra de títulos públicos,investment
+Investimento em renda fixa,investment
+Aplicação em poupança,investment
+Aporte mensal em investimentos,investment
+Compra de ETF,investment
+Investimento em criptomoedas,investment
+Resgate de CDB,investment
+Transferência para corretora,investment
+Compra de debêntures,investment
+Aporte em fundo de ações,investment
+Aplicação em LCI,investment
+Aplicação em LCA,investment
+Compra de títulos privados,investment
+Investimento em renda variável,investment
+Depósito em conta de investimento,investment
+Aporte em carteira de investimentos,investment
+Certificado de depósito bancário,investment
+Aplicação em fundo DI,investment
+Compra de ouro para investimento,investment
+Aporte em previdência,investment
+Fundo multimercado,investment
+Compra de ações na bolsa,investment
+Aplicação em título público,investment
+Compra de roupas,shopping
+Compra de celular,shopping
+Loja de eletrônicos,shopping
+Compra de tênis,shopping
+Pedido em loja online,shopping
+Compra de móveis,shopping
+Loja de departamento,shopping
+Compra de eletrodoméstico,shopping
+Compra de acessórios,shopping
+Pedido na Shopee,shopping
+Compra na Amazon,shopping
+Compra de maquiagem,shopping
+Loja de calçados,shopping
+Compra de computador,shopping
+Utensílios domésticos,shopping
+Compra de mochila,shopping
+Pedido no Mercado Livre,shopping
+Compra de brinquedos,shopping
+Material de escritório,shopping
+Artigos esportivos,shopping
+Compra de relógio,shopping
+Compra de televisão,shopping
+Compra de ferramentas,shopping
+Produtos de beleza,shopping
+Decoração para casa,shopping
+Pagamento em papelaria,shopping
+Periféricos de computador,shopping
+Compra de cadeira,shopping
+Produtos importados,shopping
+Loja de variedades,shopping
+Corrida Uber,travel
+Pagamento de corrida 99,travel
+Passagem de ônibus,travel
+Reserva de hotel,travel
+Passagem aérea Gol,travel
+Pagamento de pedágio,travel
+Abastecimento para viagem,travel
+Aluguel de carro,travel
+Passagem de avião,travel
+Reserva de pousada,travel
+Transporte por aplicativo,travel
+Passagem rodoviária,travel
+Hospedagem em hotel,travel
+Estacionamento em viagem,travel
+Bilhete de metrô,travel
+Passagem de trem,travel
+Taxa de bagagem aérea,travel
+Reserva de hospedagem,travel
+Transfer para aeroporto,travel
+Locação de veículo para viagem,travel
+Passagem interestadual,travel
+Pagamento de balsa,travel
+Corrida de táxi,travel
+Diária de hotel,travel
+Passagem aérea Azul,travel
+Transporte urbano,travel
+Aluguel por temporada,travel
+Ônibus interestadual,travel
+Transporte executivo,travel
+Despesa com deslocamento,travel
+Conta de energia elétrica,utilities
+Pagamento da conta de água,utilities
+Fatura de internet,utilities
+Plano de celular,utilities
+Pagamento de gás,utilities
+Conta de luz,utilities
+Conta de água e esgoto,utilities
+Fatura de telefone,utilities
+Provedor de internet,utilities
+Coleta de lixo,utilities
+Taxa de saneamento,utilities
+Energia da residência,utilities
+Internet residencial,utilities
+Recarga de celular,utilities
+Telefone fixo,utilities
+Fatura de banda larga,utilities
+Fornecimento de água,utilities
+Conta de gás encanado,utilities
+Serviço de telecomunicações,utilities
+Iluminação pública,utilities
+TV por assinatura,utilities
+Fatura de operadora móvel,utilities
+Fibra óptica mensalidade,utilities
+Pagamento de esgoto,utilities
+Serviço de internet,utilities
+Conta mensal de eletricidade,utilities
+Concessionária de energia,utilities
+Telefone pré-pago,utilities
+Fatura de telefone celular,utilities
+Serviços básicos,utilities

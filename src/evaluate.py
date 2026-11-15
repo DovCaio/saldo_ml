@@ -42,7 +42,7 @@ print(f"Dispositivo: {DEVICE}")
 # ==========================================================
 
 df = pd.read_csv(
-    "../data/processed/transactions_pt_br_v2.csv"
+    "../data/processed/transactions_pt_br_v4.csv"
 )
 
 df = df.dropna(
@@ -210,7 +210,7 @@ def extract_embeddings(texts, pooling="mean"):
 
 
 # ==========================================================
-# 6. EXTRAÇÃO DOS EMBEDDINGS DO DATASET
+# 6. Embedding data set extractions
 # ==========================================================
 
 print("\nExtraindo embeddings do dataset...")
@@ -295,7 +295,7 @@ for fold, (train_idx, val_idx) in enumerate(
 
 
 # ==========================================================
-# 8. RESULTADOS DA VALIDAÇÃO CRUZADA
+# 8. Result of cross avaliation
 # ==========================================================
 
 results_cv = pd.DataFrame(results_cv)
@@ -340,7 +340,7 @@ print(
 
 
 # ==========================================================
-# 10. MATRIZ DE CONFUSÃO
+# 10. Confunsion matrix
 # ==========================================================
 
 labels = np.unique(y_array)
@@ -370,7 +370,7 @@ plt.show()
 
 
 # ==========================================================
-# 11. TESTE COM NOVAS TRANSAÇÕES
+# 11. Tests with transactions
 # ==========================================================
 
 samples = [
@@ -395,7 +395,7 @@ samples = [
 
 
 # ==========================================================
-# 12. TREINAMENTO FINAL COM TODOS OS DADOS
+# 12. Final train with the data
 # ==========================================================
 
 print("\nTreinando classificador final...")
@@ -413,7 +413,7 @@ final_classifier.fit(
 
 
 # ==========================================================
-# 13. PREDIÇÕES
+# 13. Predictions
 # ==========================================================
 
 sample_embeddings = extract_embeddings(

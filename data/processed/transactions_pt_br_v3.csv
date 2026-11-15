@@ -1,0 +1,1339 @@
+description,category
+Mensalidade da faculdade,education
+Pagamento de mensalidade universitária,education
+Curso de inglês,education
+Pagamento de curso online,education
+Compra de material escolar,education
+Compra de livros didáticos,education
+Inscrição em curso profissionalizante,education
+Mensalidade da escola,education
+Treinamento profissional,education
+Inscrição em congresso acadêmico,education
+Taxa de matrícula da universidade,education
+Aula particular de matemática,education
+Curso de programação,education
+Plataforma de estudos online,education
+Certificação profissional,education
+Renovação de matrícula,education
+Compra de apostila,education
+Mensalidade de pós-graduação,education
+Curso preparatório para concurso,education
+Inscrição em vestibular,education
+Workshop de tecnologia,education
+Aulas de reforço escolar,education
+Compra de caderno e canetas,education
+Pagamento de curso técnico,education
+Mensalidade de plataforma educacional,education
+Taxa de emissão de diploma,education
+Escola de idiomas,education
+Material para faculdade,education
+Curso de informática,education
+Pagamento de professor particular,education
+Parcela do financiamento imobiliário,emi
+Pagamento de empréstimo pessoal,emi
+Parcela do financiamento do carro,emi
+Pagamento de crédito consignado,emi
+Parcela do financiamento,emi
+Prestação do apartamento,emi
+Parcela do veículo,emi
+Amortização do financiamento habitacional,emi
+Parcela do empréstimo bancário,emi
+Pagamento de crédito pessoal,emi
+Financiamento estudantil,emi
+Parcela do consórcio,emi
+Pagamento de dívida parcelada,emi
+Débito automático do empréstimo,emi
+Parcela mensal do imóvel,emi
+Financiamento de motocicleta,emi
+Prestação do carro,emi
+Parcela do crédito imobiliário,emi
+Empréstimo consignado,emi
+Amortização de empréstimo,emi
+Financiamento habitacional,emi
+Prestação bancária,emi
+Parcela do crédito estudantil,emi
+Acordo de dívida,emi
+Prestação mensal do financiamento,emi
+Débito de parcela do empréstimo,emi
+Financiamento veicular,emi
+Parcela de crédito pessoal,emi
+Financiamento da casa,emi
+Pagamento de parcela do consórcio,emi
+Assinatura Netflix,entertainment
+Mensalidade Spotify,entertainment
+Ingresso de cinema,entertainment
+Compra de jogo na Steam,entertainment
+Assinatura Disney Plus,entertainment
+YouTube Premium,entertainment
+Ingresso de show,entertainment
+Ingresso para teatro,entertainment
+Aluguel de filme online,entertainment
+Assinatura de streaming,entertainment
+Conteúdo para videogame,entertainment
+Clube de jogos,entertainment
+Ingresso de festival de música,entertainment
+Amazon Prime Video,entertainment
+Compra de música digital,entertainment
+Ingresso de parque de diversões,entertainment
+Pagamento de karaokê,entertainment
+Plataforma de filmes,entertainment
+Expansão de jogo,entertainment
+Ingresso de espetáculo,entertainment
+Assinatura Twitch,entertainment
+DLC de videogame,entertainment
+Streaming de música,entertainment
+Ingresso de festival,entertainment
+Aluguel de filme,entertainment
+Pagamento de fliperama,entertainment
+Plataforma de séries,entertainment
+Compra de jogo digital,entertainment
+Evento cultural,entertainment
+Serviço de streaming,entertainment
+Compra no supermercado,food
+Pagamento no restaurante,food
+Pedido no iFood,food
+Compra na padaria,food
+Lanche no McDonald's,food
+Compra de frutas e verduras,food
+Pagamento de almoço,food
+Jantar em restaurante,food
+Compra em açougue,food
+Pedido de pizza,food
+Compra em lanchonete,food
+Produtos alimentícios,food
+Pagamento de delivery,food
+Compra de pão e leite,food
+Pedido no aplicativo de comida,food
+Compra em hortifruti,food
+Café da manhã na cafeteria,food
+Compra de bebidas no mercado,food
+Conta de restaurante,food
+Compra de alimentos,food
+Pagamento de marmita,food
+Pedido de hambúrguer,food
+Compra em mercearia,food
+Despesa com alimentação,food
+Itens para churrasco,food
+Pagamento em cafeteria,food
+Pedido de comida japonesa,food
+Compra de congelados,food
+Produtos de padaria,food
+Pagamento de refeição,food
+Compra na farmácia,healthcare
+Consulta médica,healthcare
+Exame laboratorial,healthcare
+Clínica odontológica,healthcare
+Compra de medicamentos,healthcare
+Consulta com dentista,healthcare
+Sessão de fisioterapia,healthcare
+Pagamento de plano de saúde,healthcare
+Exame de sangue,healthcare
+Internação hospitalar,healthcare
+Produtos ortopédicos,healthcare
+Consulta com psicólogo,healthcare
+Vacina em clínica,healthcare
+Pagamento de laboratório,healthcare
+Vitaminas na farmácia,healthcare
+Atendimento em pronto-socorro,healthcare
+Consulta oftalmológica,healthcare
+Exame de imagem,healthcare
+Tratamento odontológico,healthcare
+Plano odontológico,healthcare
+Compra de curativos,healthcare
+Consulta veterinária,healthcare
+Exame cardiológico,healthcare
+Pagamento de terapia,healthcare
+Procedimento médico,healthcare
+Equipamento médico,healthcare
+Atendimento em clínica médica,healthcare
+Medicamento de uso contínuo,healthcare
+Pagamento de hospital,healthcare
+Despesa com saúde,healthcare
+Aplicação em CDB,investment
+Compra de ações,investment
+Investimento em Tesouro Direto,investment
+Depósito em fundo de investimento,investment
+Aplicação financeira,investment
+Compra de cotas de fundos imobiliários,investment
+Aporte em previdência privada,investment
+Compra de títulos públicos,investment
+Investimento em renda fixa,investment
+Aplicação em poupança,investment
+Aporte mensal em investimentos,investment
+Compra de ETF,investment
+Investimento em criptomoedas,investment
+Resgate de CDB,investment
+Transferência para corretora,investment
+Compra de debêntures,investment
+Aporte em fundo de ações,investment
+Aplicação em LCI,investment
+Aplicação em LCA,investment
+Compra de títulos privados,investment
+Investimento em renda variável,investment
+Depósito em conta de investimento,investment
+Aporte em carteira de investimentos,investment
+Certificado de depósito bancário,investment
+Aplicação em fundo DI,investment
+Compra de ouro para investimento,investment
+Aporte em previdência,investment
+Fundo multimercado,investment
+Compra de ações na bolsa,investment
+Aplicação em título público,investment
+Compra de roupas,shopping
+Compra de celular,shopping
+Loja de eletrônicos,shopping
+Compra de tênis,shopping
+Pedido em loja online,shopping
+Compra de móveis,shopping
+Loja de departamento,shopping
+Compra de eletrodoméstico,shopping
+Compra de acessórios,shopping
+Pedido na Shopee,shopping
+Compra na Amazon,shopping
+Compra de maquiagem,shopping
+Loja de calçados,shopping
+Compra de computador,shopping
+Utensílios domésticos,shopping
+Compra de mochila,shopping
+Pedido no Mercado Livre,shopping
+Compra de brinquedos,shopping
+Material de escritório,shopping
+Artigos esportivos,shopping
+Compra de relógio,shopping
+Compra de televisão,shopping
+Compra de ferramentas,shopping
+Produtos de beleza,shopping
+Decoração para casa,shopping
+Pagamento em papelaria,shopping
+Periféricos de computador,shopping
+Compra de cadeira,shopping
+Produtos importados,shopping
+Loja de variedades,shopping
+Corrida Uber,travel
+Pagamento de corrida 99,travel
+Passagem de ônibus,travel
+Reserva de hotel,travel
+Passagem aérea Gol,travel
+Pagamento de pedágio,travel
+Abastecimento para viagem,travel
+Aluguel de carro,travel
+Passagem de avião,travel
+Reserva de pousada,travel
+Transporte por aplicativo,travel
+Passagem rodoviária,travel
+Hospedagem em hotel,travel
+Estacionamento em viagem,travel
+Bilhete de metrô,travel
+Passagem de trem,travel
+Taxa de bagagem aérea,travel
+Reserva de hospedagem,travel
+Transfer para aeroporto,travel
+Locação de veículo para viagem,travel
+Passagem interestadual,travel
+Pagamento de balsa,travel
+Corrida de táxi,travel
+Diária de hotel,travel
+Passagem aérea Azul,travel
+Transporte urbano,travel
+Aluguel por temporada,travel
+Ônibus interestadual,travel
+Transporte executivo,travel
+Despesa com deslocamento,travel
+Conta de energia elétrica,utilities
+Pagamento da conta de água,utilities
+Fatura de internet,utilities
+Plano de celular,utilities
+Pagamento de gás,utilities
+Conta de luz,utilities
+Conta de água e esgoto,utilities
+Fatura de telefone,utilities
+Provedor de internet,utilities
+Coleta de lixo,utilities
+Taxa de saneamento,utilities
+Energia da residência,utilities
+Internet residencial,utilities
+Recarga de celular,utilities
+Telefone fixo,utilities
+Fatura de banda larga,utilities
+Fornecimento de água,utilities
+Conta de gás encanado,utilities
+Serviço de telecomunicações,utilities
+Iluminação pública,utilities
+TV por assinatura,utilities
+Fatura de operadora móvel,utilities
+Fibra óptica mensalidade,utilities
+Pagamento de esgoto,utilities
+Serviço de internet,utilities
+Conta mensal de eletricidade,utilities
+Concessionária de energia,utilities
+Telefone pré-pago,utilities
+Fatura de telefone celular,utilities
+Serviços básicos,utilities
+CURSO DE PROGRAMACAO ONLINE,education
+UDEMY CURSOS,education
+COURSERA SUBSCRIPTION,education
+ALURA TECNOLOGIA,education
+MENSALIDADE FACULDADE,education
+CURSO DE INGLES,education
+ESCOLA DE IDIOMAS,education
+COMPRA DE LIVROS DIDATICOS,education
+EDITORA SARAIVA,education
+CURSO PREPARATORIO CONCURSO,education
+PLATAFORMA DE ENSINO,education
+MATERIAL ESCOLAR,education
+PAGAMENTO DE MATRICULA,education
+CURSO DE POS GRADUACAO,education
+ESCOLA TECNICA,education
+DESCOMPLICA CURSOS,education
+GRAN CURSOS ONLINE,education
+ESTACIO MENSALIDADE,education
+LICENCA PLATAFORMA EDUCACIONAL,education
+CURSO DE IDIOMAS ONLINE,education
+PARCELA EMPRESTIMO,emi
+PARCELAMENTO DE FATURA,emi
+PARCELA FINANCIAMENTO VEICULO,emi
+PRESTACAO DO CREDITO PESSOAL,emi
+PAGAMENTO CREDIARIO,emi
+PARCELA CONSORCIO,emi
+FINANCIAMENTO IMOBILIARIO,emi
+PARCELA DO EMPRESTIMO BANCARIO,emi
+PARCELAMENTO COMPRA CARTAO,emi
+PRESTACAO MENSAL DO CARRO,emi
+PARCELA BANCO PAN,emi
+PARCELA BV FINANCEIRA,emi
+PARCELAMENTO LOJA,emi
+PRESTACAO FINANCIAMENTO,emi
+PARCELA CREDITO CONSIGNADO,emi
+PGTO PARCELA EMPRESTIMO,emi
+PARCELA CREDITO DIRETO,emi
+FINANCIAMENTO MOTOCICLETA,emi
+PARCELA CREDITO BANCARIO,emi
+PRESTACAO DE FINANCIAMENTO,emi
+STEAM PURCHASE,entertainment
+PLAYSTATION NETWORK,entertainment
+XBOX GAME PASS,entertainment
+GOOGLE PLAY JOGOS,entertainment
+INGRESSO CINEMA,entertainment
+CINEMARK,entertainment
+COMPRA INGRESSO SHOW,entertainment
+EVENTIM INGRESSOS,entertainment
+INGRESSO TEATRO,entertainment
+PARQUE DE DIVERSOES,entertainment
+COMPRA DE JOGO DIGITAL,entertainment
+RIOT GAMES,entertainment
+EPIC GAMES STORE,entertainment
+BLIZZARD ENTERTAINMENT,entertainment
+INGRESSO FESTIVAL,entertainment
+COMPRA DE INGRESSO EVENTO,entertainment
+CLUBE DE CINEMA,entertainment
+ALUGUEL FILME DIGITAL,entertainment
+COMPRA DE CONTEUDO DIGITAL,entertainment
+INGRESSO CASA DE SHOW,entertainment
+RESTAURANTE DOIS IRMAOS,food
+SUPERMERCADO BOM PRECO,food
+COMPRA NO ATACADAO,food
+ACOUGUE CENTRAL,food
+HORTIFRUTI,food
+PADARIA SAO JOSE,food
+COMPRA DE HORTALICAS,food
+BURGER KING,food
+MC DONALDS,food
+RESTAURANTE SELF SERVICE,food
+IFOOD PEDIDO,food
+RAPPI RESTAURANTE,food
+PIZZARIA CENTRAL,food
+COMPRA DE BEBIDAS MERCADO,food
+LANCHONETE CENTRAL,food
+FEIRA LIVRE,food
+CASA DE CARNES,food
+ACAI DELIVERY,food
+DELICATESSEN,food
+COMPRA DE ALIMENTOS,food
+CLINICA ODONTOLOGICA,healthcare
+CONSULTORIO DENTISTA,healthcare
+EXAMES LABORATORIAIS,healthcare
+LABORATORIO SABIN,healthcare
+HOSPITAL PARTICULAR,healthcare
+PLANO DE SAUDE,healthcare
+UNIMED MENSALIDADE,healthcare
+CONSULTA CARDIOLOGISTA,healthcare
+FISIOTERAPIA,healthcare
+PSICOLOGO CONSULTA,healthcare
+CLINICA DE IMAGEM,healthcare
+ULTRASSONOGRAFIA,healthcare
+EXAME DE SANGUE,healthcare
+VACINA PARTICULAR,healthcare
+CONSULTA OFTALMOLOGISTA,healthcare
+TRATAMENTO DENTARIO,healthcare
+CLINICA MEDICA,healthcare
+FARMACIA PAGAMENTO,healthcare
+COMPRA DE MEDICAMENTOS,healthcare
+ODONTO COMPANY,healthcare
+APORTE RENDA FIXA,investment
+APLICACAO CDB,investment
+TESOURO DIRETO,investment
+COMPRA DE ACOES,investment
+INVESTIMENTO EM ETF,investment
+APORTE FUNDOS IMOBILIARIOS,investment
+APLICACAO POUPANCA,investment
+RESGATE INVESTIMENTO,investment
+APLICACAO LCI,investment
+APLICACAO LCA,investment
+COMPRA DE TITULOS PUBLICOS,investment
+CORRETORA DE VALORES,investment
+APORTE PREVIDENCIA PRIVADA,investment
+INVESTIMENTO EM FUNDOS,investment
+COMPRA DE DEBENTURES,investment
+APORTE EM CDB BANCO,investment
+APLICACAO FINANCEIRA,investment
+COMPRA DE CRIPTOATIVOS,investment
+INVESTIMENTO BOLSA DE VALORES,investment
+TRANSFERENCIA PARA CORRETORA,investment
+LOJAS RENNER,shopping
+MAGAZINE LUIZA COMPRA,shopping
+AMERICANAS ONLINE,shopping
+SHOPEE COMPRA,shopping
+MERCADO LIVRE COMPRA,shopping
+ALIEXPRESS PEDIDO,shopping
+COMPRA DE ROUPAS,shopping
+LOJA DE CALCADOS,shopping
+COMPRA DE ELETRODOMESTICOS,shopping
+LOJA DE DEPARTAMENTOS,shopping
+ZARA BRASIL,shopping
+C&A MODAS,shopping
+RIACHUELO COMPRA,shopping
+COMPRA DE ACESSORIOS,shopping
+LOJA DE MOVEIS,shopping
+COMPRA DE CELULAR,shopping
+LOJA DE INFORMATICA,shopping
+DECATHLON COMPRA,shopping
+NIKE STORE,shopping
+COMPRA DE PRODUTOS ONLINE,shopping
+UBER TRIP,travel
+99 TAXI CORRIDA,travel
+POSTO IPIRANGA,travel
+POSTO SHELL,travel
+ABASTECIMENTO VEICULO,travel
+ESTACIONAMENTO ROTATIVO,travel
+PEDAGIO SEM PARAR,travel
+PASSAGEM DE ONIBUS,travel
+PASSAGEM AEREA GOL,travel
+LATAM AIRLINES,travel
+ALUGUEL DE CARRO,travel
+CORRIDA DE APLICATIVO,travel
+TRANSPORTE PUBLICO,travel
+METRO BILHETE,travel
+PASSAGEM RODOVIARIA,travel
+POSTO BR COMBUSTIVEL,travel
+99APP MOBILIDADE,travel
+ESTACIONAMENTO SHOPPING,travel
+PEDAGIO RODOVIA,travel
+ABASTECIMENTO GASOLINA,travel
+CONTA ENERGIA ELETRICA,utilities
+ENERGISA FATURA,utilities
+CONTA DE AGUA,utilities
+SANEAMENTO FATURA,utilities
+CONTA DE GAS,utilities
+COMPANHIA DE AGUA,utilities
+INTERNET FIBRA OPTICA,utilities
+PROVEDOR DE INTERNET,utilities
+FATURA TELEFONE CELULAR,utilities
+RECARGA TELEFONICA,utilities
+VIVO POS PAGO,utilities
+CLARO FATURA,utilities
+TIM CONTROLE,utilities
+CONTA DE TELEFONE,utilities
+FATURA DE INTERNET,utilities
+FORNECIMENTO DE GAS,utilities
+ENERGIA SOLAR MENSALIDADE,utilities
+OI FIBRA,utilities
+NET SERVICOS,utilities
+CELESC FATURA,utilities
+ALURA CURSOS ONLINE,education
+PUC MINAS MENSALIDADE,education
+ESTACIO DE SA GRADUACAO,education
+UNIP UNIVERSIDADE PAULISTA,education
+CULTURA INGLESA PARC 01,education
+CCAA ESCOLA DE IDIOMAS,education
+WIZARD BY PEARSON,education
+CNA IDIOMAS MENSALIDADE,education
+ROCKETSEAT EDUCACAO,education
+ESTRATEGIA CONCURSOS,education
+SENAC SAO PAULO,education
+SENAI SERVICO NACIONAL,education
+MACKENZIE EDUCACIONAL,education
+FGV FUNDACAO GETULIO VARGAS,education
+INSPER INSTITUTO DE ENSINO,education
+ANHEMBI MORUMBI,education
+UNINOVE MENSALIDADE,education
+UNINTER EDUCACIONAL,education
+KUMON METODO DE ESTUDO,education
+FISK ESCOLA DE INGLES,education
+YAZIGI IDIOMAS,education
+BERLITZ CENTRO DE IDIOMAS,education
+COURSERA *SUBSCRIPTION,education
+UDEMY *ONLINE COURSES,education
+DUOLINGO PLUS ASSINATURA,education
+HOTMART *CURSO ONLINE,education
+KIWIFY *TREINAMENTO,education
+SARAIVA LIVRARIA ACADEMICA,education
+PAGTO BOLETO ESCOLAR,education
+TAXA DE MATRICULA CURSO,education
+PAGAMENTO CRECHE INFANTIL,education
+MENSALIDADE COLEGIO,education
+CURSO PREPARATORIO VESTIBULAR,education
+MATERIAL DIDATICO ESCOLAR,education
+APOSTILAS CONCURSO PUBLICO,education
+INSCRICAO PROVA ENEM,education
+MENSALIDADE POS GRADUACAO,education
+CURSO TECNICO PROFISSIONALIZANTE,education
+AULA PARTICULAR MATEMATICA,education
+REFORCO ESCOLAR MENSAL,education
+TAXA EMISSAO DIPLOMA,education
+MENSALIDADE MESTRADO,education
+CURSO DE EXTENSAO UNIVERSITARIA,education
+SEMINARIO ACADEMICO INSCRICAO,education
+LIVROS UNIVERSITARIOS COMPRA,education
+PLATAFORMA DE ENSINO EAD,education
+MENTORIA EDUCACIONAL,education
+TREINAMENTO CORPORATIVO CURSO,education
+WORKSHOP CAPACITACAO PROFISSIONAL,education
+CERTIFICACAO TECNICA EXAME,education
+MENSALIDADE ESCOLA TECNICA,education
+ANUIDADE ESCOLAR PARCELA,education
+MENS ESCOLAR REF OUT,education
+PAG BOLETO UNIV 04/12,education
+EDTECH*PLATAFORMA EAD,education
+MP *CURSO PREPARATORIO,education
+PAG*LIVRARIA TECNICA,education
+EDU*MATRICULA SEMESTRAL,education
+BOLETO EDUCACIONAL 2026,education
+DEB AUT COLEGIO FUND,education
+PIX QR CODE ESCOLA IDIOMAS,education
+TRANSF PIX PROF PARTICULAR,education
+TED MENSALIDADE FACUL,education
+CARTAO DEB LIVRARIA DIDAT,education
+IFOOD*LIVROS DIDATICOS,education
+PAGSEGURO*CURSO ONLINE,education
+MERCADOPAGO*APOSTILAS,education
+ASAAS*MENSALIDADE ESCOLA,education
+IUGU*PLATAFORMA ESTUDOS,education
+VINDI*CURSO IDIOMAS,education
+STRIPE*CERTIFICACAO IT,education
+PAYPAL *EDX COURSES,education
+Mensalidade Escolar - Ensino Medio,education
+Pagamento de Curso de Ingles,education
+Colegio Batista Mineiro,education
+Universidade Federal Taxa Inscricao,education
+Livraria Cultura Livros Tecnicos,education
+Escola de Musica Conservatorio,education
+Auto Escola Habilitacao CNH,education
+CFC Centro Formacao Condutores,education
+Curso de Programacao Fullstack,education
+Bootcamp Ciencia de Dados,education
+Pos-Graduacao Lato Sensu,education
+MBA Gestao de Projetos,education
+Escola Infantil Bilingue,education
+Colegio Marista Mensalidade,education
+Colegio Objetivo Parcela,education
+TAXA INSCRICAO CONCURSO PUBLICO,education
+TOEFL IBT TEST REGISTRATION,education
+IELTS EXAM BRITISH COUNCIL,education
+CAMBRIDGE ENGLISH ASSESSMENT,education
+INTERCAMBIO ESTUDANTIL PARCELA,education
+CONGRESSO BRASILEIRO DE MEDICINA,education
+SIMPOSIO DE ENGENHARIA INSCRICAO,education
+ALUGUEL BECA FORMATURA,education
+TAXA DE BIBLIOTECA UNIVERSITARIA,education
+CURSO DE ORATORIA E COMUNICACAO,education
+FINANCIAMENTO ITAU VEICULOS,emi
+BV FINANCEIRA PARCELA,emi
+SANTANDER FINANCIAMENTOS,emi
+BRADESCO FINANCIAMENTOS,emi
+CAIXA HABITACAO PRESTACAO,emi
+BANCO PAN FINANCIAMENTO,emi
+AYMORE CREDITO FINANC,emi
+LOSANGO PROMOTORA DE VENDAS,emi
+CREFISA EMPRESTIMO PESSOAL,emi
+OMNI FINANCEIRA PARCELA,emi
+CETELEM PARCELAMENTO,emi
+PORTO SEGURO CONSORCIO,emi
+CONSORCIO NACIONAL HONDA,emi
+EMBRACON CONSORCIO PARC,emi
+RODOBENS CONSORCIO,emi
+MAGALU CONSORCIO PARCELA,emi
+NUBANK EMPRESTIMO PESSOAL,emi
+INTER CREDITO CONSIGNADO,emi
+MERCADO CREDITO PARCELA,emi
+PICPAY EMPRESTIMO,emi
+CREDITAS SOLUCOES FINANC,emi
+GERU EMPRESTIMO ONLINE,emi
+SIM EMPRESTIMOS PARCELA,emi
+AGIBANK CONSIGNADO,emi
+BMG CREDITO CONSIGNADO,emi
+DAYCOVAL CONSIGNADO,emi
+SAFRA FINANCEIRA VEICULOS,emi
+VOLKSWAGEN FINANCIAL SERV,emi
+TOYOTA BANCO FINANCIAMENTO,emi
+CHEVROLET SERVICOS FINANC,emi
+PRESTACAO FINANCIAMENTO IMOVEL,emi
+PARCELA EMPRESTIMO PESSOAL,emi
+AMORTIZACAO CONTRATO HABIT,emi
+CREDITO CONSIGNADO INSS,emi
+PARCELAMENTO DE FATURA CARTAO,emi
+PRESTACAO FINANCIAMENTO AUTO,emi
+PARCELA CREDIARIO LOJA,emi
+DEB AUT EMPRESTIMO BANCARIO,emi
+PAGTO PARCELA CONSORCIO,emi
+CONTRATO CREDITO DIRETO CDC,emi
+PARCELA REFINANCIAMENTO,emi
+QUITACAO PARCIAL EMPRESTIMO,emi
+ENCARGOS PARCELAMENTO FATURA,emi
+PRESTACAO CASA PROPRIA,emi
+PARCELA CREDITO PESSOAL,emi
+DESCONTO CONSIGNADO FOLHA,emi
+BOLETO FINANCIAMENTO MOTO,emi
+PARCELA ACORDO FINANCEIRO,emi
+RENEGOCIACAO DIVIDA PARC 03,emi
+PARCELA EMPRESTIMO COM GARANTIA,emi
+CREDITO PARCELADO LOJA,emi
+FINANCIAMENTO ESTUDANTIL FIES,emi
+PARCELA MICROCREDITO,emi
+PRESTACAO LEASING VEICULO,emi
+PARCELAMENTO COMPRA 05/10,emi
+FINANC VEIC PARC 12/48,emi
+PREST HABIT CAIXA 084/360,emi
+EMP PESSOAL DEB AUT,emi
+CRED CONSIG PARC 06/24,emi
+PARC FATURA ROTATIVO 02/06,emi
+CDC VEICULOS PARC 18/36,emi
+CONSORCIO COTA 142 PARC 15,emi
+PAG BOLETO FINANC AUTO,emi
+DEB C/C EMPRESTIMO 009482,emi
+FINANC IMOBILIARIO SFH,emi
+PARC CREDIARIO 03/08,emi
+EMPRESTIMO PESS 04/12,emi
+FINANC MOTOCICLETA 10/36,emi
+ACORDO CREDITO PARC 02/05,emi
+FIES CAIXA ECONOMICA PARC,emi
+CONS NAC VOLKSWAGEN PARC,emi
+FINANC EQUIPAMENTOS PARC,emi
+PARCELA CARNE DIGITAL,emi
+CREDITO DIRETO CONSUMIDOR,emi
+PREST FINANC RESIDENCIAL,emi
+Parcela Financiamento Veiculo,emi
+Prestacao Credito Imobiliario,emi
+Emprestimo Consignado Publico,emi
+Parcelamento Fatura Cartao Credito,emi
+Financiamento Habitacional SBPE,emi
+Consorcio de Imovel Parcela,emi
+Consorcio de Automovel Cota,emi
+Crediario Proprio Loja Parcela,emi
+Emprestimo Pessoal Banco do Brasil,emi
+Financiamento Solar Fotovoltaico,emi
+Parcela Emprestimo FGTS,emi
+Antecipacao Saque Aniversario,emi
+Financiamento Caminhao Utilitario,emi
+Parcela Renegociacao Contrato,emi
+Prestacao Financiamento Estudantil,emi
+CONSORCIO CONTEMPLADO LANCE,emi
+AMORTIZACAO EXTRAORDINARIA HABIT,emi
+PARCELA EMPRESTIMO PENHOR,emi
+FINANCIAMENTO PROJETO ENERGIA,emi
+PRESTACAO CREDITO RURAL,emi
+PARCELA LEASING EQUIPAMENTO,emi
+ACORDO SERASA LIMPA NOME PARC,emi
+QUITACAO ANTECIPADA CDC,emi
+PARCELA EMPRESTIMO COM AVALISTA,emi
+CONSORCIO DE SERVICOS PARCELA,emi
+NETFLIX.COM,entertainment
+SPOTIFY BRASIL,entertainment
+AMAZON PRIME VIDEO,entertainment
+DISNEY PLUS ASSINATURA,entertainment
+MAX STREAMING BRASIL,entertainment
+GLOBOPLAY ASSINATURA,entertainment
+YOUTUBE PREMIUM,entertainment
+DEEZER MUSICA,entertainment
+APPLE TV PLUS,entertainment
+PARAMOUNT PLUS,entertainment
+CRUNCHYROLL ASSINATURA,entertainment
+CINEMARK INGRESSOS,entertainment
+CINEPOLIS BRASIL,entertainment
+UCI CINEMAS INGRESSO,entertainment
+KINOPLEX CINEMAS,entertainment
+INGRESSO.COM,entertainment
+SYMPLA INGRESSOS EVENTOS,entertainment
+TICKETMASTER BRASIL,entertainment
+EVENTIM INGRESSOS SHOW,entertainment
+STEAM GAMES COMPRA,entertainment
+PLAYSTATION NETWORK PSN,entertainment
+XBOX LIVE GAME PASS,entertainment
+NINTENDO ESHOP BRASIL,entertainment
+RIOT GAMES VALORANT,entertainment
+BETO CARRERO WORLD,entertainment
+HOPI HARI PARQUE,entertainment
+AQUARIO DE SAO PAULO,entertainment
+MASP MUSEU DE ARTE,entertainment
+INGRESSO CINEMA SESSAO,entertainment
+ASSINATURA STREAMING VIDEO,entertainment
+ASSINATURA MUSICA DIGITAL,entertainment
+INGRESSO TEATRO PECA,entertainment
+INGRESSO SHOW MUSICAL,entertainment
+ENTRADA PARQUE TEMATICO,entertainment
+BILHETE MUSEU EXPOSICAO,entertainment
+ALUGUEL QUADRA BEACH TENNIS,entertainment
+BOLICHE E LAZER PISTA,entertainment
+INGRESSO ESTADIO FUTEBOL,entertainment
+COMPRA JOGO DIGITAL PC,entertainment
+RECARGA CREDITOS GAME,entertainment
+INGRESSO FESTIVAL MUSICA,entertainment
+ENTRADA CLUBE RECREATIVO,entertainment
+PASSEIO TURISTICO BARCO,entertainment
+INGRESSO STAND UP COMEDY,entertainment
+SESSAO PLANETARIO INGRESSO,entertainment
+INGRESSO CIRCO ESPETACULO,entertainment
+ALUGUEL PRANCHA SURF,entertainment
+INGRESSO ZOOLOGICO MUNICIPAL,entertainment
+KART INDOOR CORRIDA,entertainment
+ESCAPE ROOM JOGO GRUPO,entertainment
+KARAOKE BAR ENTRADA,entertainment
+ASSINATURA CLUBE DE LEITURA,entertainment
+NETFLIX*ASSINATURA MENSAL,entertainment
+SPOTIFY*P3849201,entertainment
+GOOGLE *YOUTUBE PREMIUM,entertainment
+APPLE.COM/BILL STREAMING,entertainment
+MP *INGRESSOS SHOW,entertainment
+PAG*CINEMA PIPOCA,entertainment
+SYMPLA*FESTIVAL 2026,entertainment
+STEAM*PURCHASE BRL,entertainment
+PSN*PLAYSTATION STORE,entertainment
+XBOX*GAMEPASS ULTIMATE,entertainment
+INGRESSO*CINE 3D,entertainment
+EVENTIM*TICKET SHOW,entertainment
+AMAZON*PRIME CHANNEL,entertainment
+GLOBO*ASSINATURA DIGITAL,entertainment
+TWITCH*SUBSCRIPTION,entertainment
+DISCORD*NITRO MENSAL,entertainment
+ROBLOX*ROBUX COMPRA,entertainment
+EA*SPORTS FC POINTS,entertainment
+UBISOFT*STORE BRASIL,entertainment
+MERCADOPAGO*TEATRO,entertainment
+Assinatura Mensal Netflix,entertainment
+Spotify Premium Familia,entertainment
+Cinema Shopping Eldorado,entertainment
+Teatro Municipal Ingresso,entertainment
+Show Internacional Pista,entertainment
+Parque Aquatico Thermas,entertainment
+Jardim Botanico Entrada,entertainment
+Pinacoteca Estado Ingresso,entertainment
+Arena Corinthians Ingresso,entertainment
+Maracana Tour e Ingresso,entertainment
+Flix Media Cinema,entertainment
+Moviecom Cinemas,entertainment
+Centerplex Cinemas,entertainment
+Reserva Cultural Cinema,entertainment
+Espaco Itau de Cinema,entertainment
+INGRESSO OPERA TEATRO,entertainment
+ALUGUEL DE CAIAQUE REPRESA,entertainment
+SALTO DE PARAQUEDAS TANDEM,entertainment
+PASSEIO DE BALAO BOITUVA,entertainment
+INGRESSO BIENAL DO LIVRO,entertainment
+ENTRADA FEIRA DE GAMES BGS,entertainment
+INGRESSO COMIC CON CCXP,entertainment
+SESSAO DRIVE IN CINEMA,entertainment
+ALUGUEL JOGOS DE TABULEIRO,entertainment
+ASSINATURA REVISTA QUADRINHOS,entertainment
+IFOOD *RESTAURANTE,food
+RAPPI BRASIL ALIMENTOS,food
+CARREFOUR HIPERMERCADO,food
+PAO DE ACUCAR SUPERM,food
+ASSAI ATACADISTA,food
+ATACADAO S.A.,food
+EXTRA MERCADO,food
+DIA SUPERMERCADO,food
+SONDA SUPERMERCADOS,food
+ZAFFARI SUPERMERCADO,food
+SUPERMERCADO MUNDIAL,food
+GUANABARA SUPERMERCADOS,food
+MCDONALDS RESTAURANTE,food
+BURGER KING BRASIL,food
+SUBWAY LANCHES,food
+OUTBACK STEAKHOUSE,food
+MADERO STEAK HOUSE,food
+COCO BAMBU RESTAURANTE,food
+SPOLETO CULINARIA ITAL,food
+HABIBS ESFIHARIA,food
+STARBUCKS COFFEE BRASIL,food
+CACAU SHOW CHOCOLATES,food
+KOPENHAGEN CHOCOLATES,food
+DOMINOS PIZZA DELIVERY,food
+PIZZA HUT BRASIL,food
+GIRAFFAS RESTAURANTE,food
+CHINA IN BOX DELIVERY,food
+BOBS FAST FOOD,food
+HORTIFRUTI NATURAL DA TERRA,food
+OXXO MERCADO PROXIMIDADE,food
+COMPRA SUPERMERCADO MES,food
+ALMOCO RESTAURANTE SELF,food
+PADARIA E CONFEITARIA,food
+ACOUGUE CARNES NOBRES,food
+HORTIFRUTI VERDURAS FRUTAS,food
+LANCHONETE SALGADOS SUCO,food
+CAFETERIA CAFE EXPRESSO,food
+PIZZARIA DELIVERY NOITE,food
+HAMBURGUERIA ARTESANAL,food
+SORVETERIA E ACAITERIA,food
+MERCEARIA DO BAIRRO,food
+FEIRA LIVRE PASTEL CALDO,food
+RESTAURANTE JAPONES SUSHI,food
+CHURRASCARIA RODIZIO,food
+CANTINA ITALIANA JANTAR,food
+PEIXARIA FRUTOS DO MAR,food
+DOCERIA E BOLOS CASEIROS,food
+EMPADA E SALGADERIA,food
+REFEICAO EXECUTIVA ALMOCO,food
+DELIVERY COMIDA ARABE,food
+TEMAKERIA DELIVERY,food
+TAPIOCARIA E CREPERIA,food
+BIROSKA PETISCOS E BEBIDAS,food
+SACOLAO FRUTAS E LEGUMES,food
+ATACADO DE ALIMENTOS,food
+IFD*RESTAURANTE CHINES,food
+IFD*HAMBURGUERIA TOP,food
+IFD*PIZZARIA FORNO,food
+IFD*MERCADO EXPRESS,food
+RAPPI*SUPERMERCADO,food
+PAG*PADARIA CENTRAL,food
+MP *ACOUGUE BOI GORDO,food
+PIX QR CODE LANCHONETE,food
+REST*SELF SERVICE KG,food
+SUPERM*COMPRAS SEMANA,food
+CAFETERIA*EXPRESSO,food
+PANIFICADORA*PAO QUENTE,food
+CHURRASC*GAUCHA GRILL,food
+SUSHI*DELIVERY EXPRESS,food
+ACAI*TIGELA NATURAL,food
+MERCADINHO*ESQUINA,food
+HORTIFRUTI*SACOLAO,food
+PIZZARIA*NAPOLITANA,food
+DOCERIA*CONFEITARIA,food
+ZE DELIVERY*BEBIDAS,food
+Supermercado Extra Bairro,food
+Padaria Bella Paulista,food
+Restaurante Por Quilo,food
+Lanchonete e Pastelaria,food
+Acougue e Casa de Carnes,food
+Mercado Municipal Box,food
+Cafeteria Grao Especial,food
+Pizzaria Forno a Lenha,food
+Hamburgueria Smash Burger,food
+Sorveteria Gelato Italiano,food
+Restaurante Comida Mineira,food
+Churrascaria Fogo de Chao,food
+Coco Bambu Frutos do Mar,food
+Outback Shopping Center,food
+Carrefour Express Loja,food
+COMPRA QUEIJOS ARTESANAIS,food
+EMPORIO DE PRODUTOS NATURAIS,food
+ROTISSERIA MASSAS FRESCAS,food
+CASA DE BOLOS CASEIROS,food
+PEIXARIA MERCADO CENTRAL,food
+CAFETERIA TORREFACAO PROPRIA,food
+ADEGA E EMPORIO GASTRONOMICO,food
+FOOD TRUCK LANCHE NOTURNO,food
+COMPRA CESTAS BASICAS,food
+RESTAURANTE VEGANO ORGANICO,food
+DROGASIL FARMACIA,healthcare
+DROGA RAIA S.A.,healthcare
+PAGUE MENOS FARMACIA,healthcare
+DROGARIA SAO PAULO,healthcare
+PANVEL FARMACIAS,healthcare
+DROGARIA ARAUJO,healthcare
+ULTRAFARMA SAUDE,healthcare
+DROGARIA PACHECO,healthcare
+DROGARIA VENANCIO,healthcare
+NISSEI FARMACIAS,healthcare
+FLEURY MEDICINA E SAUDE,healthcare
+LABORATORIO DELBONI,healthcare
+DASA DIAGNOSTICOS,healthcare
+HERMES PARDINI EXAMES,healthcare
+A+ MEDICINA DIAGNOSTICA,healthcare
+LAVOISIER LABORATORIO,healthcare
+HOSPITAL ALBERT EINSTEIN,healthcare
+HOSPITAL SIRIO LIBANES,healthcare
+REDE DOR SAO LUIZ,healthcare
+HOSPITAL MOINHOS DE VENTO,healthcare
+HOSPITAL MATER DEI,healthcare
+UNIMED PLANO DE SAUDE,healthcare
+BRADESCO SAUDE PLANO,healthcare
+AMIL ASSISTENCIA MEDICA,healthcare
+SULAMERICA SAUDE,healthcare
+NOTREDAME INTERMEDICA,healthcare
+HAPVIDA ASSISTENCIA,healthcare
+ODONTOPREV PLANO DENTAL,healthcare
+DR CONSULTA CLINICA,healthcare
+CONSULTA MEDICA PARTICULAR,healthcare
+COMPRA MEDICAMENTOS FARMACIA,healthcare
+EXAME DE SANGUE LABORATORIO,healthcare
+CONSULTA ODONTOLOGICA,healthcare
+MENSALIDADE PLANO DE SAUDE,healthcare
+SESSAO DE FISIOTERAPIA,healthcare
+EXAME RESSONANCIA MAGNETICA,healthcare
+ULTRASSONOGRAFIA DIAGNOSTICA,healthcare
+TRATAMENTO ORTODONTICO,healthcare
+VACINA CLINICA IMUNIZACAO,healthcare
+CONSULTA DERMATOLOGISTA,healthcare
+SESSAO PSICOTERAPIA CLINICA,healthcare
+EXAME TOMOGRAFIA COMPUT,healthcare
+ATENDIMENTO PRONTO SOCORRO,healthcare
+LIMPEZA DENTAL PROFILAXIA,healthcare
+MANIPULACAO FORMULA FARMACIA,healthcare
+CONSULTA PEDIATRICA,healthcare
+EXAME ELETROCARDIOGRAMA,healthcare
+SESSAO ACUPUNTURA MEDICA,healthcare
+CONSULTA GINECOLOGISTA,healthcare
+EXAME RAIO X CLINICA,healthcare
+FONOAUDIOLOGIA SESSAO,healthcare
+NUTRICIONISTA CONSULTA CLINICA,healthcare
+COPARTICIPACAO PLANO SAUDE,healthcare
+DROG*RAIA FILIAL 042,healthcare
+DROGASIL*LOJA 118,healthcare
+FARM*PAGUE MENOS,healthcare
+LAB*FLEURY DIAGNOST,healthcare
+CONS*MEDICA CARDIOL,healthcare
+ODONTO*CLINICA DENTAL,healthcare
+HOSP*SAO LUIZ INTERNACAO,healthcare
+PLANO SAUDE*UNIMED,healthcare
+PIX QR CODE DENTISTA,healthcare
+PAG*FARMACIA MANIPULACAO,healthcare
+MP *CLINICA MEDICA,healthcare
+FISIO*REABILITACAO,healthcare
+EXAMES*LAB SABIN,healthcare
+DROGARIA*24 HORAS,healthcare
+CLINICA*OFTALMOLOGICA,healthcare
+PSICO*ATENDIMENTO,healthcare
+VACINAS*CLINICA SAUDE,healthcare
+OTICA*LENTES DE GRAU,healthcare
+ORTOPEDIA*CONSULTA,healthcare
+ENDOSCOPIA*EXAME MED,healthcare
+Farmacia e Drogaria Central,healthcare
+Laboratorio Analises Clinicas,healthcare
+Clinica Odontologica Sorriso,healthcare
+Hospital Geral Atendimento,healthcare
+Plano de Saude Familiar,healthcare
+Farmacia de Manipulacao,healthcare
+Centro Medico Especialidades,healthcare
+Clinica de Fisioterapia,healthcare
+Consultorio Medico Particular,healthcare
+Instituto de Olhos Oftalmo,healthcare
+Hospital Santa Casa,healthcare
+Beneficencia Portuguesa,healthcare
+Drogaria Onofre Medicamentos,healthcare
+Farmacia Popular Brasil,healthcare
+Clinica Dermatologica,healthcare
+EXAME POLISSONOGRAFIA SONO,healthcare
+SESSAO QUIROPRAXIA CLINICA,healthcare
+IMPLANTE DENTARIO PARCELA,healthcare
+COMPRA APARELHO AUDITIVO,healthcare
+EXAME DENSITOMETRIA OSSEA,healthcare
+TERAPIA OCUPACIONAL SESSAO,healthcare
+CIRURGIA AMBULATORIAL TAXA,healthcare
+EXAME TESTE ERGOMETRICO,healthcare
+ALUGUEL CADEIRA DE RODAS,healthcare
+BANCO DE SANGUE EXAME,healthcare
+XP INVESTIMENTOS CCTVM,investment
+BTG PACTUAL DIGITAL,investment
+NUINVEST CORRETORA,investment
+RICO INVESTIMENTOS,investment
+CLEAR CORRETORA VALORES,investment
+GENIAL INVESTIMENTOS,investment
+AGORA INVESTIMENTOS,investment
+ORAMA INVESTIMENTOS,investment
+TORO INVESTIMENTOS,investment
+INTER DTVM APLICACAO,investment
+ITAU CORRETORA VALORES,investment
+BRADESCO CORRETORA,investment
+BB INVESTIMENTOS APLIC,investment
+SANTANDER CORRETORA,investment
+SAFRA INVESTIMENTOS,investment
+MODALMAIS CORRETORA,investment
+WARREN BRASIL INVEST,investment
+MAGNETIS GESTAO RECURSOS,investment
+MONETUS INVESTIMENTOS,investment
+AVENUE SECURITIES,investment
+NOMAD INVESTIMENTOS,investment
+TESOURO DIRETO SELIC,investment
+TESOURO IPCA MAIS 2035,investment
+TESOURO PREFIXADO,investment
+B3 BRASIL BOLSA BALCAO,investment
+BRASILPREV PREVIDENCIA,investment
+ICATU SEGUROS PREVIDENCIA,investment
+ZURICH PREVIDENCIA,investment
+MAPFRE PREVIDENCIA PRIV,investment
+PORTO SEGURO PREVIDENCIA,investment
+APLICACAO CDB LIQUIDEZ DIARIA,investment
+INVESTIMENTO LCI IMOBILIARIO,investment
+APLICACAO LCA AGRONEGOCIO,investment
+COMPRA TITULO TESOURO DIRETO,investment
+APORTE FUNDO MULTIMERCADO,investment
+COMPRA ACOES BOLSA VALORES,investment
+INVESTIMENTO FUNDOS IMOBILIARIOS,investment
+APORTE PREVIDENCIA PRIVADA PGBL,investment
+CONTRIBUICAO VGBL PREVIDENCIA,investment
+APLICACAO FUNDO RENDA FIXA,investment
+COMPRA COTAS ETF BOVA11,investment
+INVESTIMENTO DEBENTURES INCENT,investment
+APLICACAO POUPANCA PROGRAMADA,investment
+APORTE CORRETORA DE VALORES,investment
+COMPRA LETRA DE CAMBIO LC,investment
+INVESTIMENTO CRI CRA,investment
+APLICACAO FUNDO CAMBIAL,investment
+APORTE CARTEIRA AUTOMATIZADA,investment
+COMPRA TITULOS PUBLICOS,investment
+INVESTIMENTO RENDA VARIAVEL,investment
+APLICACAO CDB POS FIXADO,investment
+RESGATE E REAPLICACAO CDB,investment
+APORTE MENSAL PREVIDENCIA,investment
+INVESTIMENTO FUNDO DI,investment
+COMPRA BDRS MERCADO EXTERNO,investment
+APLIC CDB BANCO INTER,investment
+INV TESOURO DIRETO B3,investment
+TED CORRETORA XP INV,investment
+PIX MESMA TITULARIDADE XP,investment
+APLIC LCI 90 DIAS,investment
+APLIC LCA ISENTA IR,investment
+APORTE PREV PRIVADA,investment
+COMPRA FII MXRF11,investment
+COMPRA ACOES PETR4,investment
+APLIC FUNDO RF LP,investment
+INV CDB 110% CDI,investment
+TED BTG PACTUAL INV,investment
+APLIC POUPANCA CONTA,investment
+DEB AUT PREVIDENCIA,investment
+INV ETF IVVB11,investment
+APLIC LETRA FINANC,investment
+APORTE RICO CORRETORA,investment
+INV TESOURO RENDA+,investment
+APLIC FUNDO ACOES,investment
+TRANSFERENCIA CORRETORA CLEAR,investment
+Aplicacao Financeira CDB,investment
+Aporte Mensal Previdencia Privada,investment
+Compra de Fundos Imobiliarios,investment
+Aplicacao Letra Credito Imob,investment
+Investimento Renda Fixa CDI,investment
+Aporte Corretora Valores Mobiliarios,investment
+Aplicacao Fundo de Investimento,investment
+Previdencia Complementar Aberta,investment
+Tesouro Educa Mais Aplicacao,investment
+Compra de Acoes B3,investment
+Aplicacao CDB Liquidez,investment
+Investimento Carteira Recomendada,investment
+Aporte Fundo de Acoes Long Only,investment
+Aplicacao Financeira Programada,investment
+COMPRA COE CERTIFICADO OPER,investment
+APLICACAO FUNDO INFRAESTRUTURA,investment
+APORTE FUNDO DE PENSAO FECHADO,investment
+INVESTIMENTO OURO CONTRATO,investment
+COMPRA TITULO CAPITALIZACAO INV,investment
+APLICACAO FUNDOS OFFSHORE,investment
+APORTE PREVIDENCIA CORPORATIVA,investment
+INVESTIMENTO CROWDFUNDING EQUITY,investment
+COMPRA DEBENTURES CONVERSIVEIS,investment
+APLICACAO RDB RECIBO DEPOSITO,investment
+AMAZON.COM.BR VAREJO,shopping
+SHOPEE BRASIL COMPRA,shopping
+MAGAZINE LUIZA S.A.,shopping
+CASAS BAHIA VAREJO,shopping
+PONTO FRIO LOJAS,shopping
+AMERICANAS S.A.,shopping
+RENNER LOJAS DE ROUPAS,shopping
+CEA MODAS LTDA,shopping
+RIACHUELO LOJAS,shopping
+ZARA BRASIL MODA,shopping
+HERING STORE,shopping
+CENTAURO ESPORTES,shopping
+NETSHOES ARTIGOS ESPORT,shopping
+DECATHLON BRASIL,shopping
+NIKE DO BRASIL,shopping
+ADIDAS BRASIL LTDA,shopping
+FAST SHOP ELETRONICOS,shopping
+KABUM COMERCIO ELETRON,shopping
+PICHAU INFORMATICA,shopping
+TERABYTESHOP HARDWARE,shopping
+LEROY MERLIN CONSTRUCAO,shopping
+TELHANORTE MATERIAIS,shopping
+TOK E STOK MOVEIS,shopping
+ETNA MOVEIS E DECORACAO,shopping
+CAMICADO CASA E DECOR,shopping
+O BOTICARIO COSMETICOS,shopping
+NATURA COSMETICOS,shopping
+SEPHORA BRASIL PERFUMES,shopping
+VIVARA JOALHERIA,shopping
+COMPRA ROUPAS E VESTUARIO,shopping
+LOJA DE CALCADOS TENIS,shopping
+COMPRA ELETRONICOS E CELULAR,shopping
+LOJA DE MOVEIS E DECORACAO,shopping
+ELETRODOMESTICOS COZINHA,shopping
+ARTIGOS ESPORTIVOS LOJA,shopping
+PERFUMARIA E COSMETICOS,shopping
+LIVRARIA E PAPELARIA,shopping
+ACESSORIOS E RELOGIOS,shopping
+MATERIAIS DE CONSTRUCAO,shopping
+UTENSILIOS DOMESTICOS,shopping
+BRINQUEDOS E PRESENTES,shopping
+MODA INTIMA E PRAIA,shopping
+INFORMATICA E PERIFERICOS,shopping
+JOALHERIA E BIJUTERIAS,shopping
+FERRAMENTAS E JARDINAGEM,shopping
+CAMA MESA E BANHO,shopping
+MALAS E MOCHILAS VIAGEM,shopping
+OPTICA OCULOS DE SOL,shopping
+INSTRUMENTOS MUSICAIS LOJA,shopping
+PECAS E ACESSORIOS AUTO,shopping
+ARTIGOS PARA CASA,shopping
+VESTUARIO INFANTIL LOJA,shopping
+COMPRA MARKETPLACE ONLINE,shopping
+MERCADOLIVRE*PRODUTOS,shopping
+AMAZON*MARKETPLACE BR,shopping
+SHOPEE*PEDIDO ONLINE,shopping
+MAGALU*COMPRA SITE,shopping
+PAG*LOJA DE ROUPAS,shopping
+MP *ELETRONICOS STORE,shopping
+RENNER*LOJA SHOPPING,shopping
+CENTAURO*TENIS CORRIDA,shopping
+KABUM*HARDWARE PC,shopping
+LEROY*CASA CONSTRUCAO,shopping
+BOTICARIO*PERFUMARIA,shopping
+ZARA*VESTUARIO,shopping
+FASTSHOP*SMARTPHONE,shopping
+ALIEXPRESS*COMPRA INT,shopping
+SHEIN*MODA ONLINE,shopping
+PIX QR CODE LOJA MODA,shopping
+CEA*MODAS SHOPPING,shopping
+RIACHUELO*VESTUARIO,shopping
+DECATHLON*ESPORTES,shopping
+TOKSTOK*DECORACAO,shopping
+Lojas Renner Shopping,shopping
+Magazine Luiza Eletro,shopping
+Mercado Livre Produtos,shopping
+Amazon Brasil Compras,shopping
+Loja de Roupas Masculinas,shopping
+Calcados e Acessorios,shopping
+Loja de Moveis Planejados,shopping
+Artigos de Informatica,shopping
+Cosmeticos e Perfumaria,shopping
+Papelaria e Material Escritorio,shopping
+Camicado Utilidades,shopping
+Polishop Produtos,shopping
+Kalunga Papelaria e Info,shopping
+MadeiraMadeira Moveis,shopping
+Arezzo Calcados Femininos,shopping
+COMPRA RELOGIO INTELIGENTE,shopping
+LOJA DE TECIDOS E AVIAMENTOS,shopping
+ANTIGUIDADES E COLECOES,shopping
+ARTIGOS DE CAMPING E PESCA,shopping
+LOJA DE SUPLEMENTOS E EQUIP,shopping
+COMPRA INSTRUMENTO MUSICAL,shopping
+FLORICULTURA ARRANJOS FLORES,shopping
+TAPECARIA E CORTINAS SOB MED,shopping
+LOJA DE ARTIGOS PARA FESTAS,shopping
+COMPRA BICICLETA ESPORTIVA,shopping
+UBER *TRIP,travel
+99POP CORRIDA,travel
+INDRIVE TRANSPORTE,travel
+CABIFY BRASIL,travel
+POSTO IPIRANGA COMBUST,travel
+SHELL BOX ABASTECIMENTO,travel
+POSTO BR PETROBRAS,travel
+POSTO ALE COMBUSTIVEIS,travel
+SEM PARAR PEDAGIO,travel
+VELOE PEDAGIO ESTAC,travel
+CONECTCAR PASSAGEM,travel
+MOVE MAIS PEDAGIO,travel
+ESTAPAR ESTACIONAMENTO,travel
+INDIGO ESTACIONAMENTOS,travel
+LATAM AIRLINES BRASIL,travel
+GOL LINHAS AEREAS,travel
+AZUL LINHAS AEREAS,travel
+DECOLAR.COM PASSAGENS,travel
+123MILHAS VIAGENS,travel
+CLICKBUS PASSAGENS ONIBUS,travel
+BUSON PASSAGENS RODOV,travel
+VIACAO COMETA S.A.,travel
+VIACAO ITAPEMIRIM,travel
+LOCALIZA RENT A CAR,travel
+MOVIDA ALUGUEL CARROS,travel
+UNIDAS LOCADORA VEICULOS,travel
+BILHETE UNICO SP RECARGA,travel
+RIOCARD MAIS TRANSPORTE,travel
+METRO SAO PAULO BILHETE,travel
+CPTM TREM METROPOLITANO,travel
+ABASTECIMENTO GASOLINA POSTO,travel
+CORRIDA APLICATIVO URBANO,travel
+PASSAGEM AEREA NACIONAL,travel
+PASSAGEM ONIBUS RODOVIARIA,travel
+PEDAGIO RODOVIA ESTADUAL,travel
+RECARGA CARTAO TRANSPORTE,travel
+CORRIDA DE TAXI COMUM,travel
+ALUGUEL DE VEICULO DIARIA,travel
+ABASTECIMENTO ETANOL DIESEL,travel
+BALSA TRAVESSIA MARITIMA,travel
+TRANSFER AEROPORTO HOTEL,travel
+ESTACIONAMENTO ROTATIVO ZONA,travel
+PASSAGEM TREM INTERESTADUAL,travel
+GNV GAS NATURAL VEICULAR,travel
+TAXA EMBARQUE AEROPORTO,travel
+ALUGUEL BICICLETA COMPART,travel
+PATINETE ELETRICO CORRIDA,travel
+FRETAMENTO VAN TRANSPORTE,travel
+PEDAGIO FREE FLOW RODOVIA,travel
+ABASTECIMENTO POSTO ESTRADA,travel
+ESTACIONAMENTO AEROPORTO,travel
+BILHETE METRO URBANO,travel
+CORRIDA TAXI EXECUTIVO,travel
+PASSAGEM RODOVIARIA INTERM,travel
+UBER *PENDING TRIP,travel
+UBER *99TAXI CORRIDA,travel
+99 *CORRIDA APP,travel
+POSTO*SHELL GASOLINA,travel
+IPIRANGA*ABASTECIMENTO,travel
+SEMPARAR*MENSALIDADE,travel
+ESTAPAR*PARKING,travel
+LATAM*PASSAGEM AEREA,travel
+GOL*BILHETE AEREO,travel
+AZUL*VOOS NACIONAIS,travel
+CLICKBUS*ONIBUS,travel
+LOCALIZA*LOCACAO AUTO,travel
+RECARGA*BILHETE UNICO,travel
+PEDAGIO*CCR AUTOBAN,travel
+PEDAGIO*ECORODOVIAS,travel
+PEDAGIO*ARTERIS,travel
+POSTO*BR MANIA COMB,travel
+TAXI*COOPERATIVA,travel
+ZONA AZUL*ESTACIONAM,travel
+METRO*BILHETE DIGITAL,travel
+Posto de Combustivel Avenida,travel
+Uber Viagem Urbana,travel
+99 Tecnologia Corrida,travel
+Estacionamento Centro Comercial,travel
+Passagem Aerea Ida e Volta,travel
+Rodoviaria Tiete Passagem,travel
+Aluguel de Carro Localiza,travel
+Sem Parar Tag Pedagio,travel
+Recarga Cartao Metro,travel
+Posto Petrobras Gasolina Adit,travel
+Viacao Aguia Branca,travel
+Expresso Guanabara Onibus,travel
+Viacao Garcia Passagem,travel
+Turismo Rodoviario Passagem,travel
+Aeroporto Guarulhos Estac,travel
+TRAVESSIA BALSA ILHABELA,travel
+ALUGUEL MOTORHOME VIAGEM,travel
+PEDAGIO PONTE RIO NITEROI,travel
+ESTACIONAMENTO VALET RESTAUR,travel
+PASSAGEM TREM SERRA VERDE,travel
+TELEFERICO BONDINHO INGRESSO,travel
+ALUGUEL SCOOTER ELETRICA,travel
+TAXA BAGAGEM DESPACHADA VOO,travel
+RECARGA VEICULO ELETRICO,travel
+TRANSPORTE FLUVIAL AMAZONIA,travel
+ENEL DISTRIBUICAO ENERGIA,utilities
+CPFL ENERGIA CONTA LUZ,utilities
+CEMIG DISTRIBUICAO,utilities
+COPEL ENERGIA ELETRICA,utilities
+LIGHT SERVICOS ELETRICIDADE,utilities
+NEOENERGIA COELBA,utilities
+EQUATORIAL ENERGIA,utilities
+ELEKTRO REDES ENERGIA,utilities
+ENERGISA DISTRIBUIDORA,utilities
+CELESC DISTRIBUICAO,utilities
+SABESP SANEAMENTO BASICO,utilities
+CEDAE AGUA E ESGOTO,utilities
+COPASA SANEAMENTO MINAS,utilities
+SANEPAR AGUA PARANA,utilities
+EMBASA AGUA BAHIA,utilities
+CORSAN SANEAMENTO,utilities
+COMGAS GAS NATURAL,utilities
+NATURGY GAS DISTRIB,utilities
+ULTRAGAZ BOTIJAO GAS,utilities
+SUPERGASBRAS ENERGIA,utilities
+CONSIGAZ DISTRIBUIDORA,utilities
+LIQUIGAS DISTRIBUIDORA,utilities
+VIVO FIBRA INTERNET,utilities
+CLARO RESIDENCIAL TV,utilities
+TIM LIVE INTERNET,utilities
+OI FIBRA TELECOM,utilities
+SKY BRASIL SERVICOS,utilities
+STARLINK INTERNET SATELITE,utilities
+BRISANET TELECOMUNICACOES,utilities
+ALGAR TELECOM,utilities
+CONTA DE ENERGIA ELETRICA,utilities
+FATURA AGUA E ESGOTO,utilities
+CONTA DE GAS ENCANADO,utilities
+INTERNET BANDA LARGA CASA,utilities
+CONTA TELEFONE CELULAR POS,utilities
+COMPRA BOTIJAO DE GAS P13,utilities
+CONTA TELEFONE FIXO,utilities
+RECARGA CELULAR PRE PAGO,utilities
+FATURA TV POR ASSINATURA,utilities
+TAXA COLETA DE LIXO URBANO,utilities
+CONTA LUZ RESIDENCIAL,utilities
+SANEAMENTO BASICO MENSAL,utilities
+PROVEDOR INTERNET FIBRA,utilities
+PLANO CONTROLE TELEFONIA,utilities
+ABASTECIMENTO GAS GLP,utilities
+SERVICO TELECOMUNICACOES,utilities
+FATURA ENERGIA SOLAR COMP,utilities
+CONTA AGUA CONDOMINIO,utilities
+INTERNET RESIDENCIAL WI-FI,utilities
+TELEFONIA MOVEL FATURA,utilities
+CONTA DE LUZ VENCIMENTO,utilities
+AGUA E SANEAMENTO FATURA,utilities
+GAS DOMESTICO ENTREGA,utilities
+PLANO DADOS MOVEIS,utilities
+CONTA INTEGRADA COMBO TV,utilities
+DEB AUT ENEL ENERGIA,utilities
+PAG BOLETO SABESP AGUA,utilities
+DEB AUT VIVO FIBRA,utilities
+FATURA CLARO MOVEL,utilities
+TIM*CONTA CELULAR,utilities
+COMGAS*FATURA MENSAL,utilities
+CPFL*ENERGIA ELETRICA,utilities
+CEMIG*CONTA LUZ,utilities
+COPEL*FATURA ENERGIA,utilities
+SANEPAR*AGUA ESGOTO,utilities
+RECARGA*VIVO PRE,utilities
+RECARGA*CLARO CEL,utilities
+RECARGA*TIM BRASIL,utilities
+ULTRAGAZ*DISK GAS,utilities
+OI*INTERNET FIBRA,utilities
+LIGHT*ENERGIA RJ,utilities
+COPASA*CONTA AGUA,utilities
+SKY*TV ASSINATURA,utilities
+DEB C/C TELEFONIA,utilities
+PIX QR CODE GAS COZINHA,utilities
+Conta de Luz Enel,utilities
+Fatura de Agua Sabesp,utilities
+Internet Fibra Otica Vivo,utilities
+Claro Net Virtua Internet,utilities
+Tim Controle Fatura Mensal,utilities
+Gas Encanado Comgas,utilities
+Botijao de Gas Entrega,utilities
+Energia Eletrica Residencial,utilities
+Saneamento Basico Agua,utilities
+Provedor Local Internet,utilities
+Telefonia Movel Vivo,utilities
+Recarga Celular Oi,utilities
+Conta de Agua Cedae,utilities
+Cemig Energia Minas,utilities
+Copel Telecom Fibra,utilities
+TAXA RELIGACAO ENERGIA ELETR,utilities
+INSTALACAO PONTO GAS ENCANADO,utilities
+TAXA HIDROMETRO AGUA,utilities
+PROVEDOR INTERNET RURAL,utilities
+CONTA TELEFONE SATELITAL,utilities
+MANUTENCAO REDE ELETRICA DOM,utilities
+TAXA ESGOTO SANITARIO EXTRA,utilities
+RECARGA CHIP INTERNACIONAL,utilities
+PLANO INTERNET DEDICADA,utilities
+CONTA ENERGIA BIOMETANO,utilities
