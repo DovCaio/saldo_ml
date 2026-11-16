@@ -1,0 +1,26 @@
+
+# requirements.txt
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Machine Learning
+torch
+transformers
+scikit-learn
+numpy
+pandas
+joblib
+
+# Messaging
+pika
+
+# Visualization and Evaluation
+matplotlib
+seaborn
+
+# Utilities
+python-dotenv
