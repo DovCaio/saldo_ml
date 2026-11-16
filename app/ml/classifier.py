@@ -1,40 +1,41 @@
 
+# app/ml/classifier.py
+
 import numpy as np
 
-from app.ml.preprocessing import normalize_description
+from ml.preprocessing import normalize_description
+from ml.model_loader import ModelBundle
 from src.common import extract_embeddings, POOLING
-
-from app.ml.model_loader import ModelBundle
-
 
 CONFIDENCE_THRESHOLD = 0.60
 
 
 class TransactionClassifier:
 
-    def __init__(self, models: ModelBundle):
-        self.tokenizer = models.tokenizer
-        self.bert = models.bert
-        self.classifier = models.classifier
-        self.metadata = models.metadata
+    def __init__(self, model: ModelBundle):
+        self.model = model
 
     def predict(self, description: str) -> dict:
+
         if not description or not description.strip():
             raise ValueError("Transaction description cannot be empty.")
-        
-        description = normalize_description(description)
+
+        normalized = normalize_description(description)
 
         embeddings = extract_embeddings(
-            [description],
-            self.tokenizer,
-            self.bert,
+            [normalized],
+            self.model.tokenizer,
+            self.model.bert,
             pooling=POOLING,
+            show_progress=False,
         )
 
-        probabilities = self.classifier.predict_proba(embeddings)[0]
+        probabilities = self.model.classifier.predict_proba(embeddings)[0]
 
         predicted_index = np.argmax(probabilities)
-        predicted_category = self.classifier.classes_[predicted_index]
+
+        predicted_category = self.model.classifier.classes_[predicted_index]
+
         confidence = float(probabilities[predicted_index])
 
         category = (
@@ -45,6 +46,6 @@ class TransactionClassifier:
 
         return {
             "category": str(category),
-            "confidence": confidence,
             "predicted_category": str(predicted_category),
+            "confidence": confidence,
         }

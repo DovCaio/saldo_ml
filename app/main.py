@@ -1,4 +1,3 @@
-
 from contextlib import asynccontextmanager
 import json
 from pathlib import Path
@@ -7,6 +6,7 @@ from fastapi import FastAPI
 
 from api.routes import health
 from api.routes import models
+from messaging.worker_monitor import WorkerMonitor
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 METADATA_PATH = ROOT_DIR / "models" / "metadata.json"
@@ -20,7 +20,12 @@ async def lifespan(app: FastAPI):
     with METADATA_PATH.open("r", encoding="utf-8") as file:
         app.state.model_metadata = json.load(file)
 
+    monitor = WorkerMonitor(app)
+    app.state.worker_monitor = monitor
+    monitor.start()
     yield
+
+    monitor.stop()
 
     # Application shutdown
     # Resources will be released here later.

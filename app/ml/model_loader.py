@@ -5,7 +5,6 @@ import joblib
 from dataclasses import dataclass
 from pathlib import Path
 
-from transformers import AutoTokenizer, AutoModel
 
 from src.common import (
     MODEL_NAME,

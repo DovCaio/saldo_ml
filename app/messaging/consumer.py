@@ -1,12 +1,18 @@
+
 import json
 import logging
 
 import pika
 
-from app.messaging.publisher import (
+from messaging.publisher import (
     RESULT_QUEUE,
     publish_result,
 )
+from app.messaging.status import (
+    HEARTBEAT_INTERVAL,
+    WORKER_ID,
+)
+from app.messaging.status_publisher import publish_status
 
 logger = logging.getLogger(__name__)
 
@@ -50,7 +56,6 @@ def declare_queues(channel):
 
 
 def process_message(channel, method, properties, body, classifier):
-
     try:
         message = json.loads(body)
 
@@ -100,8 +105,25 @@ def process_message(channel, method, properties, body, classifier):
         )
 
 
-def start_consumer(channel, classifier):
+def publish_heartbeat(connection, channel):
+    try:
+        publish_status(
+            channel=channel,
+            worker_id=WORKER_ID,
+            status="heartbeat",
+            model_loaded=True,
+        )
+    except Exception:
+        logger.exception("Failed to publish worker heartbeat.")
+        raise
 
+    return connection.call_later(
+        HEARTBEAT_INTERVAL,
+        lambda: publish_heartbeat(connection, channel),
+    )
+
+
+def start_consumer(channel, classifier):
     declare_queues(channel)
 
     channel.basic_qos(prefetch_count=1)
@@ -121,5 +143,10 @@ def start_consumer(channel, classifier):
     )
 
     logger.info("Waiting for classification messages...")
+
+    publish_heartbeat(
+        channel.connection,
+        channel,
+    )
 
     channel.start_consuming()

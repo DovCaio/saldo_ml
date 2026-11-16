@@ -83,13 +83,12 @@ def extract_embeddings(
     texts,
     tokenizer,
     bert,
-    pooling=POOLING
+    pooling=POOLING,
+    show_progress=True,
 ):
-
     embeddings = []
 
     for i in range(0, len(texts), BATCH_SIZE):
-
         batch = texts[i:i + BATCH_SIZE]
 
         inputs = tokenizer(
@@ -97,7 +96,7 @@ def extract_embeddings(
             return_tensors="pt",
             padding=True,
             truncation=True,
-            max_length=MAX_LENGTH
+            max_length=MAX_LENGTH,
         )
 
         inputs = {
@@ -105,58 +104,31 @@ def extract_embeddings(
             for key, value in inputs.items()
         }
 
-        with torch.no_grad():
-
+        with torch.inference_mode():
             outputs = bert(**inputs)
-
             token_embeddings = outputs.last_hidden_state
 
             if pooling == "cls":
-
                 batch_embeddings = token_embeddings[:, 0, :]
 
             elif pooling == "mean":
+                mask = inputs["attention_mask"].unsqueeze(-1).float()
 
-                attention_mask = inputs[
-                    "attention_mask"
-                ]
-
-                mask = attention_mask.unsqueeze(-1).expand(
-                    token_embeddings.size()
-                ).float()
-
-                summed = torch.sum(
-                    token_embeddings * mask,
-                    dim=1
-                )
-
-                counts = torch.clamp(
-                    mask.sum(dim=1),
-                    min=1e-9
-                )
+                summed = (token_embeddings * mask).sum(dim=1)
+                counts = mask.sum(dim=1).clamp(min=1e-9)
 
                 batch_embeddings = summed / counts
 
             else:
+                raise ValueError(f"Pooling inválido: {pooling}")
 
-                raise ValueError(
-                    f"Pooling inválido: {pooling}"
-                )
+        embeddings.extend(batch_embeddings.cpu().numpy())
 
-        embeddings.extend(
-            batch_embeddings.cpu().numpy()
-        )
+        if show_progress:
+            processed = min(i + BATCH_SIZE, len(texts))
+            print(f"Embeddings: {processed}/{len(texts)}", end="\r")
 
-        processed = min(
-            i + BATCH_SIZE,
-            len(texts)
-        )
-
-        print(
-            f"Embeddings: {processed}/{len(texts)}",
-            end="\r"
-        )
-
-    print()
+    if show_progress:
+        print()
 
     return np.array(embeddings)
