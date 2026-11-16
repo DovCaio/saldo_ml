@@ -6,6 +6,9 @@ from src.common import extract_embeddings, POOLING
 from app.ml.model_loader import ModelBundle
 
 
+CONFIDENCE_THRESHOLD = 0.60
+
+
 class TransactionClassifier:
 
     def __init__(self, models: ModelBundle):
@@ -25,13 +28,20 @@ class TransactionClassifier:
             pooling=POOLING,
         )
 
-        prediction = self.classifier.predict(embeddings)[0]
-
         probabilities = self.classifier.predict_proba(embeddings)[0]
 
-        confidence = float(np.max(probabilities))
+        predicted_index = np.argmax(probabilities)
+        predicted_category = self.classifier.classes_[predicted_index]
+        confidence = float(probabilities[predicted_index])
+
+        category = (
+            predicted_category
+            if confidence >= CONFIDENCE_THRESHOLD
+            else "others"
+        )
 
         return {
-            "category": str(prediction),
+            "category": str(category),
             "confidence": confidence,
+            "predicted_category": str(predicted_category),
         }
