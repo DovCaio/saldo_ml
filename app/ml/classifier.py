@@ -1,6 +1,7 @@
 
 import numpy as np
 
+from app.ml.preprocessing import normalize_description
 from src.common import extract_embeddings, POOLING
 
 from app.ml.model_loader import ModelBundle
@@ -20,6 +21,8 @@ class TransactionClassifier:
     def predict(self, description: str) -> dict:
         if not description or not description.strip():
             raise ValueError("Transaction description cannot be empty.")
+        
+        description = normalize_description(description)
 
         embeddings = extract_embeddings(
             [description],
