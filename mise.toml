@@ -1,0 +1,4 @@
+[tasks]
+data_transform = "python3 -m data.data_transform"
+evaluate = "python3 -m src.evaluate"
+train = "python3 -m src.train"
