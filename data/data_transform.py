@@ -1,20 +1,23 @@
 
 import pandas as pd
 
+from app.ml.preprocessing import normalize_description
+
+
 original = pd.read_csv(
-    "./processed/transactions_pt_br.csv"
+    "data/processed/transactions_pt_br.csv"
 )
 
 new_20_more_per_category = pd.read_csv(
-    "./raw/new_transactions_pt_br.csv"
+    "data/raw/new_transactions_pt_br.csv"
 )
 
 gemini_generation = pd.read_csv(
-    "./raw/gemini_transactions_pt_br.csv"
+    "data/raw/gemini_transactions_pt_br.csv"
 )
 
 deep_seek_generation = pd.read_csv(
-    "./raw/deepseek_pt_br.csv"
+    "data/raw/deepseek_pt_br.csv"
 )
 
 updated = pd.concat(
@@ -27,8 +30,10 @@ updated = updated.drop_duplicates(
     subset=["description", "category"]
 )
 
-updated.to_csv(
-    "./processed/transactions_pt_br_v4.csv",
+updated["description"] = updated["description"].apply(normalize_description)
+
+updated.to_csv( 
+    "data/processed/transactions_pt_br_v5.csv",
     index=False
 )
 

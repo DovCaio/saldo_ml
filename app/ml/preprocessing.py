@@ -34,16 +34,3 @@ def normalize_description(description: str) -> str:
     text = text.strip(" -")
 
     return text.strip()
-
-
-
-examples = [
-    (
-        "Transferência enviada pelo Pix - 12 324 123 DAVID NOBELINO "
-        "- 12.324.123/0001-75 - BS2 PAYMENTS IP S.A. "
-        "Agência: 1 Conta: 3123-4"
-    ),
-]
-
-for example in examples:
-    print(normalize_description(example))

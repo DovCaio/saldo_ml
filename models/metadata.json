@@ -1,24 +1,24 @@
 {
-  "model_name": "neuralmind/bert-base-portuguese-cased",
-  "max_length": 64,
-  "pooling": "mean",
-  "classifier": "LogisticRegression",
-  "classifier_params": {
-    "C": 1.0,
-    "max_iter": 2000,
-    "class_weight": "balanced"
-  },
-  "dataset": "transactions_pt_br_v4.csv",
-  "training_samples": 2176,
-  "categories": [
-    "education",
-    "emi",
-    "entertainment",
-    "food",
-    "healthcare",
-    "investment",
-    "shopping",
-    "travel",
-    "utilities"
-  ]
+    "model_name": "neuralmind/bert-base-portuguese-cased",
+    "max_length": 64,
+    "pooling": "mean",
+    "classifier": "LogisticRegression",
+    "classifier_params": {
+        "C": 1.0,
+        "max_iter": 2000,
+        "class_weight": "balanced"
+    },
+    "dataset": "transactions_pt_br_v4.csv",
+    "training_samples": 2176,
+    "categories": [
+        "education",
+        "emi",
+        "entertainment",
+        "food",
+        "healthcare",
+        "investment",
+        "shopping",
+        "travel",
+        "utilities"
+    ]
 }

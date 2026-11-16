@@ -25,7 +25,7 @@ DEVICE = torch.device(
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
 DATASET_PATH = (
-    ROOT_DIR / "data" / "processed" / "transactions_pt_br_v4.csv"
+    ROOT_DIR / "data" / "processed" / "transactions_pt_br_v5.csv"
 )
 
 MODELS_DIR = ROOT_DIR / "models"

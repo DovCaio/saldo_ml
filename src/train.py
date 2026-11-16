@@ -2,7 +2,7 @@
 import json
 import joblib
 
-from common import (
+from src.common import (
     load_dataset,
     load_bert,
     extract_embeddings,
