@@ -1,7 +1,7 @@
 
-from ml.model_loader import load_models
-from ml.classifier import TransactionClassifier
-from ml.preprocessing import normalize_description
+from app.ml.model_loader import load_models
+from app.ml.classifier import TransactionClassifier
+from app.ml.preprocessing import normalize_description
 
 
 def main():

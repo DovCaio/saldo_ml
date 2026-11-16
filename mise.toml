@@ -2,3 +2,5 @@
 data_transform = "python3 -m data.data_transform"
 evaluate = "python3 -m src.evaluate"
 train = "python3 -m src.train"
+run = "python -m uvicorn app.main:app --reload"
+worker = "python3 -m app.messaging.worker"

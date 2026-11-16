@@ -3,9 +3,11 @@
 
 import numpy as np
 
-from ml.preprocessing import normalize_description
-from ml.model_loader import ModelBundle
+from app.ml.preprocessing import normalize_description
+from app.ml.model_loader import ModelBundle
 from src.common import extract_embeddings, POOLING
+
+
 
 CONFIDENCE_THRESHOLD = 0.60
 

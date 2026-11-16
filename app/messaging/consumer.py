@@ -2,9 +2,7 @@
 import json
 import logging
 
-import pika
-
-from messaging.publisher import (
+from app.messaging.publisher import (
     RESULT_QUEUE,
     publish_result,
 )

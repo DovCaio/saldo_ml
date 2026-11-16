@@ -4,7 +4,7 @@ import logging
 
 import pika
 
-from messaging.status import WORKER_STATUS_QUEUE
+from app.messaging.status import WORKER_STATUS_QUEUE
 
 logger = logging.getLogger(__name__)
 

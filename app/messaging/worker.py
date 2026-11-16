@@ -1,16 +1,16 @@
 
 import logging
 
-from messaging.connection import create_connection
-from messaging.consumer import start_consumer
-from messaging.status import WORKER_ID
-from messaging.status_publisher import (
+from app.messaging.connection import create_connection
+from app.messaging.consumer import start_consumer
+from app.messaging.status import WORKER_ID
+from app.messaging.status_publisher import (
     declare_status_queue,
     publish_status,
 )
 
-from ml.classifier import TransactionClassifier
-from ml.model_loader import load_models
+from app.ml.classifier import TransactionClassifier
+from app.ml.model_loader import load_models
 
 
 logging.basicConfig(

@@ -4,8 +4,8 @@ import logging
 import threading
 import time
 
-from messaging.connection import create_connection
-from messaging.status import WORKER_STATUS_QUEUE, WORKER_TIMEOUT
+from app.messaging.connection import create_connection
+from app.messaging.status import WORKER_STATUS_QUEUE, WORKER_TIMEOUT
 
 logger = logging.getLogger(__name__)
 

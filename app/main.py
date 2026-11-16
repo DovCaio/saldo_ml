@@ -4,9 +4,9 @@ from pathlib import Path
 
 from fastapi import FastAPI
 
-from api.routes import health
-from api.routes import models
-from messaging.worker_monitor import WorkerMonitor
+from app.api.routes import health
+from app.api.routes import models
+from app.messaging.worker_monitor import WorkerMonitor
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 METADATA_PATH = ROOT_DIR / "models" / "metadata.json"
